@@ -27,7 +27,6 @@ def fetch_geo_tracks(country):
         return None
     
 def process_geo_tracks(data, country):
-    # Extract and clean the data
     cleaned_data = []
     if data and 'tracks' in data:
         for track in data['tracks']['track']:
@@ -40,24 +39,40 @@ def process_geo_tracks(data, country):
                 'url': track['url']
             }
             cleaned_data.append(cleaned_track)
+    else:
+        print(f"No tracks found for {country}. Data received: {data}")
     return cleaned_data
 
-def save_to_file(data, filename='data/top_tracks_by_country.json'):
-    with open(filename, 'w') as f:
-        json.dump(data, f, indent=4)
-    
+def save_grouped_data(all_tracks):
+    country_groups = {}
+
+    for track in all_tracks:
+        country = track['country']
+        if country not in country_groups:
+            country_groups[country] = []
+        country_groups[country].append(track)
+
+    # Save grouped data to a JSON file
+    with open('top_tracks_by_country.json', 'w') as f:
+        json.dump(country_groups, f, indent=4)
+
+    # Save each country's hot tracks song names to separate files
+    for country, tracks in country_groups.items():
+        with open(f'{country.replace(" ", "_")}_hot_tracks.txt', 'w') as f:
+            for track in tracks:
+                f.write(f"{track['name']} - {track['artist']}\n")
+
 if __name__ == '__main__':
     all_tracks = []
 
     for country in countries:
         print(f"Fetching top tracks for {country}...")
         raw_data = fetch_geo_tracks(country)
-        print(raw_data)
         cleaned_data = process_geo_tracks(raw_data, country)
 
         if cleaned_data:
             all_tracks.extend(cleaned_data)
 
-    save_to_file(all_tracks)
-    print("Processed data saved to top_tracks_by_country.json.")
+    save_grouped_data(all_tracks)
+    print("Processed data saved to top_tracks_by_country.json and individual hot tracks files.")
 
