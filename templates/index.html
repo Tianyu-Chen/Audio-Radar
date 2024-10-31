@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js with Flask</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* Add your CSS styles here */
+        #chart {
+            width: 600px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>D3.js Visualization</h1>
+    <div id="chart"></div>
+    <script>
+        // D3.js code will go here
+        const data = [30, 86, 168, 234, 78]; // Example data
+        const width = 600;
+        const height = 400;
+
+        const svg = d3.select("#chart")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        svg.selectAll("rect")
+            .data(data)
+            .enter()
+            .append("rect")
+            .attr("width", (d) => d)
+            .attr("height", 40)
+            .attr("y", (d, i) => i * 45)
+            .attr("fill", "teal");
+    </script>
+</body>
+</html>
