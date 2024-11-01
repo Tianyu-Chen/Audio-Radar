@@ -114,6 +114,15 @@
             const world = values[0];
             countryTrackData = values[1];
 
+            // Sort tracks for each country by listeners in descending order
+            for (let country in countryTrackData) {
+                countryTrackData[country].forEach(track => {
+                    // Ensure 'listeners' is a number
+                    track.listeners = +track.listeners;
+                });
+                countryTrackData[country].sort((a, b) => b.listeners - a.listeners);
+            }
+
             createMap(world);
             initializeTable();
             initializePaginationControls();
@@ -154,12 +163,6 @@
                     }
                 })
                 .on('mouseout', tooltip.hide);
-                // .on('mouseout', function(event, d) {
-                //     tooltip.hide();
-                //     // Optionally keep the table visible when mouse out
-                //     // clearTable();
-                //     // d3.select('#country-name').text('');
-                // });
         }
 
         function initializeTable() {
@@ -178,6 +181,13 @@
         function updateTable() {
             const tracks = countryTrackData[currentCountry];
             totalPages = Math.ceil(tracks.length / itemsPerPage);
+
+            // Ensure currentPage is within valid range
+            if (currentPage > totalPages) {
+                currentPage = totalPages;
+            } else if (currentPage < 1) {
+                currentPage = 1;
+            }
 
             // Slice the tracks for the current page
             const startIndex = (currentPage - 1) * itemsPerPage;
@@ -208,23 +218,29 @@
             // Update pagination info
             d3.select('#page-info').text(`Page ${currentPage} of ${totalPages}`);
 
-            // // Enable/disable buttons
-            // d3.select('#prev-button').attr('disabled', currentPage === 1);
-            // d3.select('#next-button').attr('disabled', currentPage === totalPages);
+            // Enable buttons (always enabled due to wrapping)
+            d3.select('#prev-button').attr('disabled', null);
+            d3.select('#next-button').attr('disabled', null);
         }
 
         function initializePaginationControls() {
             d3.select('#prev-button').on('click', function() {
                 if (currentPage > 1) {
                     currentPage--;
-                    updateTable();
+                } else {
+                    // Wrap around to last page
+                    currentPage = totalPages;
                 }
+                updateTable();
             });
             d3.select('#next-button').on('click', function() {
                 if (currentPage < totalPages) {
                     currentPage++;
-                    updateTable();
+                } else {
+                    // Wrap around to first page
+                    currentPage = 1;
                 }
+                updateTable();
             });
         }
     </script>
