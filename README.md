@@ -89,7 +89,7 @@ Our progress and success will be measured through:
 
 The **Top Tracks by Country** feature visualizes the most popular songs within each selected country, based on listener count data from the Spotify API. Users can click on a country from the interactive map, which displays a list of songs ranked by their popularity. Each entry includes the song name, artist, number of listeners, and a link to listen directly on Spotify. This feature helps users understand regional music preferences, discover trending tracks, and explore how musical tastes vary globally.
 
-![Top Songs by Country Screenshot](/Graph/data/Top_Song.png)
+![Top Songs by Country Screenshot](/Graph/Top_Song.png)
 
 ### Personalized Music Recommendation System
 
