@@ -81,6 +81,47 @@ Our progress and success will be measured through:
 5. **Frontend & User Interface** (Team Member E)
    - Designs the UI, integrates D3 visualizations, and ensures a user-friendly interface.
    - Expected Completion: Week 5.
+  
+
+## Music Recommendation System and Top Songs
+
+### Top Songs by Country
+
+The **Top Tracks by Country** feature visualizes the most popular songs within each selected country, based on listener count data from the Spotify API. Users can click on a country from the interactive map, which displays a list of songs ranked by their popularity. Each entry includes the song name, artist, number of listeners, and a link to listen directly on Spotify. This feature helps users understand regional music preferences, discover trending tracks, and explore how musical tastes vary globally.
+
+![Top Songs by Country Screenshot](/Graph/data/Top%20Song.png)
+
+### Personalized Music Recommendation System
+
+Our **Music Recommendation System** provides users with tailored song suggestions based on regional trends and their personal preferences. By selecting a country on the interactive map, users can adjust various musical attributes (like danceability, energy, loudness, and key) to refine recommendations that match their taste. The system considers local popularity trends to ensure the recommended tracks resonate with users within the context of specific cultural preferences.
+
+This tool is unique as it combines personal preference with regional trends, offering a geographically contextualized music discovery experience.
+
+![Music Recommendation System Screenshot](/Graph/Recommendation.png)
+
+---
+
+### Running the Application
+
+1. Navigate to the project directory:
+   ```bash
+   cd C:\Gatech\CSE 6242\Final Project
+   ```
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/Tianyu-Chen/Genre-Radar.git
+   ```
+3. Enter the cloned directory:
+   ```bash
+   cd Genre-Radar
+   ```
+4. Start a local server to run the application:
+   ```bash
+   python -m http.server 8000
+   ```
+5. Visit `http://localhost:8000` in your web browser to view the application.
+
+This will allow you to interact with both the **Top Tracks by Country** and **Music Recommendation System** features, providing a hands-on experience with the personalized music recommendations and regional music preferences across the globe.
 
 ## Midterm and Final Deliverables
 
