@@ -105,7 +105,7 @@ This tool is unique as it combines personal preference with regional trends, off
 
 1. Navigate to the project directory:
    ```bash
-   cd C:\Gatech\CSE 6242\Final Project
+   cd your path
    ```
 2. Clone the repository:
    ```bash
