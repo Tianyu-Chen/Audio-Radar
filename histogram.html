@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Features Histograms by Country</title>
+    <!-- Include D3.js library -->
+    <script type="text/javascript" src="./lib/d3.v5.min.js"></script>
+    <script type="text/javascript" src="./lib/d3-dsv.min.js"></script>
+    <script type="text/javascript" src="./lib/d3-geo-projection.v2.min.js"></script>
+    <script type="text/javascript" src="./lib/d3-tip.min.js"></script>
+    <script type="text/javascript" src="./lib/topojson.v2.min.js"></script>
+    <script type="text/javascript" src="./lib/d3-legend.min.js"></script>
+    <style>
+        /* CSS styles */
+        /* Map styles */
+        #map {
+            width: 960px;
+            height: 600px;
+            display: block;
+            margin: 0 auto;
+        }
+        /* Tooltip styles */
+        .d3-tip {
+            line-height: 1;
+            font-weight: bold;
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            border-radius: 2px;
+        }
+        /* Histogram container */
+        .histogram-container {
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .histogram-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .histogram-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .clear-button {
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        /* Histograms */
+        .histograms {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .histogram {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio Features Histograms by Country</h1>
+    <!-- Map container -->
+    <div id="map"></div>
+    <!-- Histograms container -->
+    <div id="histograms-container"></div>
+    <script>
+        // JavaScript code
+        const width = 960;
+        const height = 600;
+
+        const svg = d3.select("#map")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        const projection = d3.geoNaturalEarth1()
+            .scale(160)
+            .translate([width / 2, height / 2]);
+
+        const path = d3.geoPath()
+            .projection(projection);
+
+        const tooltip = d3.tip()
+            .attr('class', 'd3-tip')
+            .offset([-10, 0])
+            .html(function(event, d) {
+                // Tooltip content
+                return `<strong>${d.properties.name}</strong>`;
+            });
+
+        svg.call(tooltip);
+
+        const audioFeaturesData = {};
+        const countryNames = ['Australia', 'Brazil', 'Canada', 'France', 'Germany', 'India', 'United States'];
+        const maxSelectedCountries = 4;
+        let selectedCountries = [];
+
+        const dataPromises = [];
+
+        dataPromises.push(d3.json('world_countries.json')); // world map GeoJSON
+
+        // Load audio features data for each country
+        countryNames.forEach(function(country) {
+            const filename = `data/audio_features_by_country/${country.replace(" ", "_")}_audio_features.json`;
+            dataPromises.push(d3.json(filename).then(function(data) {
+                audioFeaturesData[country] = data;
+            }));
+        });
+
+        const features = ["danceability", "energy", "key", "loudness", "mode", "speechiness", "acousticness", "instrumentalness", "liveness", "valence", "tempo"];
+
+        // Color scale for different features
+        const featureColorScale = d3.scaleOrdinal()
+            .domain(features)
+            .range(d3.schemeCategory10);
+
+        Promise.all(dataPromises).then(function(values) {
+            const world = values[0]; // world map data
+
+            createMap(world);
+        });
+
+        function createMap(world) {
+            // Draw the countries
+            svg.append('g')
+                .selectAll('path')
+                .data(world.features)
+                .enter()
+                .append('path')
+                .attr('class', 'country')
+                .attr('d', path)
+                .attr('fill', function(d) {
+                    const countryName = d.properties.name;
+                    if (audioFeaturesData[countryName]) {
+                        return '#9ecae1'; // Color for countries with data
+                    } else {
+                        return '#ccc'; // Default color
+                    }
+                })
+                .attr('stroke', '#fff')
+                .attr('stroke-width', 0.5)
+                .on('click', function(d) {
+                    const countryName = d.properties.name;
+                    if (audioFeaturesData[countryName]) {
+                        // Check if country is already selected
+                        if (selectedCountries.includes(countryName)) {
+                            alert(`${countryName} is already selected.`);
+                            return;
+                        }
+                        // Check if maximum selected countries reached
+                        if (selectedCountries.length >= maxSelectedCountries) {
+                            alert(`You can select up to ${maxSelectedCountries} countries.`);
+                            return;
+                        }
+                        // Add country to selectedCountries
+                        selectedCountries.push(countryName);
+                        // Add histograms for the country
+                        addCountryHistograms(countryName);
+                    } else {
+                        alert(`No data available for ${countryName}.`);
+                    }
+                })
+                .on('mouseover', function(event, d) {
+                    tooltip.show(event, d);
+                })
+                .on('mouseout', function(event, d) {
+                    tooltip.hide();
+                });
+        }
+
+        function addCountryHistograms(countryName) {
+            const data = audioFeaturesData[countryName];
+
+            // Create a container for the country's histograms
+            const container = d3.select('#histograms-container')
+                .append('div')
+                .attr('class', 'histogram-container')
+                .attr('id', `histogram-${countryName.replace(/\s+/g, '-')}`);
+
+            // Header with country name and clear button
+            const header = container.append('div')
+                .attr('class', 'histogram-header');
+
+            header.append('div')
+                .attr('class', 'histogram-title')
+                .text(countryName);
+
+            header.append('button')
+                .attr('class', 'clear-button')
+                .text('Clear')
+                .on('click', function() {
+                    removeCountryHistograms(countryName);
+                });
+
+            // Container for histograms
+            const histogramsDiv = container.append('div')
+                .attr('class', 'histograms');
+
+            // For each feature, create a histogram
+            features.forEach(function(feature) {
+                let featureData = data.map(function(d) {
+                    return +d[feature];
+                });
+
+                // Check if feature values are very small
+                let scaleFactor = 1;
+                const maxFeatureValue = d3.max(featureData);
+                if (maxFeatureValue > 0 && maxFeatureValue < 0.1) {
+                    scaleFactor = 1000; // Adjust as necessary
+                    featureData = featureData.map(function(d) { return d * scaleFactor; });
+                }
+
+                const histogramGenerator = d3.histogram()
+                    .domain(d3.extent(featureData))
+                    .thresholds(20); // Increased thresholds for smoother curve
+
+                const histogramData = histogramGenerator(featureData);
+
+                const margin = {top: 20, right: 20, bottom: 30, left: 40};
+                const width = 300 - margin.left - margin.right;
+                const height = 200 - margin.top - margin.bottom;
+
+                const x = d3.scaleLinear()
+                    .domain(d3.extent(featureData))
+                    .range([0, width]);
+
+                // Compute the density data
+                const bandwidth = computeOptimalBandwidth(featureData);
+                const kde = kernelDensityEstimator(kernelEpanechnikov(bandwidth), x.ticks(40));
+                const density = kde(featureData);
+
+                // Normalize histogram and density data
+                const totalCount = featureData.length;
+                const binWidth = histogramData[0].x1 - histogramData[0].x0;
+
+                histogramData.forEach(function(d) {
+                    d.probability = d.length / (totalCount * binWidth);
+                });
+
+                // Compute maximum y-value for scaling
+                const maxHistogram = d3.max(histogramData, function(d) { return d.probability; });
+                const maxDensity = d3.max(density, function(d) { return d[1]; });
+
+                const y = d3.scaleLinear()
+                    .domain([0, Math.max(maxHistogram, maxDensity)])
+                    .range([height, 0]);
+
+                const svg = histogramsDiv.append('svg')
+                    .attr('class', 'histogram')
+                    .attr('width', width + margin.left + margin.right)
+                    .attr('height', height + margin.top + margin.bottom)
+                    .append('g')
+                    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+                // Add bars
+                svg.selectAll('rect')
+                    .data(histogramData)
+                    .enter().append('rect')
+                    .attr('x', function(d) { return x(d.x0); })
+                    .attr('y', function(d) { return y(d.probability); })
+                    .attr('width', function(d) { return x(d.x1) - x(d.x0) - 1; })
+                    .attr('height', function(d) { return height - y(d.probability); })
+                    .attr('fill', featureColorScale(feature));
+
+                // Format x-axis labels to limit decimal places
+                const xAxis = d3.axisBottom(x)
+                    .ticks(5)
+                    .tickFormat(function(d) {
+                        if (scaleFactor !== 1) {
+                            return (d / scaleFactor).toFixed(3);
+                        } else {
+                            return d.toFixed(2);
+                        }
+                    });
+
+                // Add x-axis
+                svg.append('g')
+                    .attr('transform', 'translate(0,' + height + ')')
+                    .call(xAxis);
+
+                // Add y-axis
+                svg.append('g')
+                    .call(d3.axisLeft(y));
+
+                // Add feature label
+                svg.append('text')
+                    .attr('x', width / 2)
+                    .attr('y', -10)
+                    .attr('text-anchor', 'middle')
+                    .style('font-size', '12px')
+                    .text(feature);
+
+                // Add KDE curve (fitted curve)
+                svg.append("path")
+                    .datum(density)
+                    .attr("fill", "none")
+                    .attr("stroke", "red")
+                    .attr("stroke-width", 1.5)
+                    .attr("stroke-linejoin", "round")
+                    .attr("d", d3.line()
+                        .curve(d3.curveBasis)
+                        .x(function(d) { return x(d[0]); })
+                        .y(function(d) { return y(d[1]); })
+                    );
+            });
+        }
+
+        function removeCountryHistograms(countryName) {
+            // Remove from selectedCountries
+            const index = selectedCountries.indexOf(countryName);
+            if (index > -1) {
+                selectedCountries.splice(index, 1);
+            }
+            // Remove the histograms container
+            d3.select(`#histogram-${countryName.replace(/\s+/g, '-')}`).remove();
+        }
+
+        // Kernel Density Estimation functions
+        function kernelDensityEstimator(kernel, X) {
+            return function(V) {
+                return X.map(function(x) {
+                    return [x, d3.mean(V, function(v) { return kernel(x - v); })];
+                });
+            };
+        }
+
+        function kernelEpanechnikov(k) {
+            return function(v) {
+                v = v / k;
+                return Math.abs(v) <= 1 ? 0.75 * (1 - v * v) / k : 0;
+            };
+        }
+
+        // Compute optimal bandwidth using Silverman's rule of thumb
+        function computeOptimalBandwidth(data) {
+            const n = data.length;
+            const stdDev = d3.deviation(data);
+            const bandwidth = 1.06 * stdDev * Math.pow(n, -1 / 5);
+            return bandwidth || 1; // Fallback to 1 if bandwidth is zero
+        }
+    </script>
+</body>
+</html>
