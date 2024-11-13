@@ -71,7 +71,6 @@ if __name__ == '__main__':
             if audio_features:
                 all_audio_features.append(audio_features)
 
-    # Optionally, save audio features to a file
     with open(f'data/audio_features_by_country/{country_name.replace(" ", "_")}_audio_features.json', 'w') as f:
         json.dump(all_audio_features, f, indent=4)
 
