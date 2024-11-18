@@ -42,7 +42,12 @@ def search_track(track_name, artist_name):
         print(f"Error searching for {track_name} by {artist_name}: {response.status_code} - {response.text}")
     return None
 
-def get_audio_features(track_id):
+def uri_to_url (uri):
+    track_id = uri.split(':')[2]
+    return f'https://open.spotify.com/track/{track_id}'
+
+
+def get_audio_features(track_id, track_name):
     access_token = get_access_token()
     url = f'https://api.spotify.com/v1/audio-features/{track_id}'
     headers = {
@@ -51,7 +56,10 @@ def get_audio_features(track_id):
     response = requests.get(url, headers=headers)
     
     if response.status_code == 200:
-        return response.json()
+        audio_features = response.json()
+        audio_features['track_name'] = track_name
+        audio_features['uri'] = uri_to_url(audio_features['uri'])
+        return audio_features
     else:
         print(f"Error fetching audio features for track ID {track_id}: {response.status_code} - {response.text}")
     return None
@@ -67,7 +75,7 @@ if __name__ == '__main__':
     for track in tracks:
         track_id = search_track(track['track_name'], track['artist_name'])
         if track_id:
-            audio_features = get_audio_features(track_id)
+            audio_features = get_audio_features(track_id, track['track_name'])
             if audio_features:
                 all_audio_features.append(audio_features)
 
