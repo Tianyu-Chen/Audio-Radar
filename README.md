@@ -1,9 +1,9 @@
 
-# Genre Radar
+# Audio Radar
 
 ## Project Overview
 
-**Genre Radar** is a web application that allows users to explore music preferences across the world through an interactive map, and discover personalized song recommendations based on specific regional trends. By integrating data from the Spotify API, users can visually explore which music genres are popular in different countries and receive song suggestions that match their taste within a specific region.
+**Audio Radar** is a web application that allows users to explore music preferences across the world through an interactive map, and discover personalized song recommendations based on specific regional trends. By integrating data from the Spotify API, users can visually explore which music genres are popular in different countries and receive song suggestions that match their taste within a specific region.
 
 ## Objectives
 
