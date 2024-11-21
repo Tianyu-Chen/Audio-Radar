@@ -13,11 +13,12 @@
         "tempo": 147.969,
         "type": "audio_features",
         "id": "35KiiILklye1JRRctaLUb4",
-        "uri": "spotify:track:35KiiILklye1JRRctaLUb4",
+        "uri": "https://open.spotify.com/track/35KiiILklye1JRRctaLUb4",
         "track_href": "https://api.spotify.com/v1/tracks/35KiiILklye1JRRctaLUb4",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/35KiiILklye1JRRctaLUb4",
         "duration_ms": 336613,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Holocene"
     },
     {
         "danceability": 0.256,
@@ -33,11 +34,12 @@
         "tempo": 203.006,
         "type": "audio_features",
         "id": "11LmqTE2naFULdEP94AUBa",
-        "uri": "spotify:track:11LmqTE2naFULdEP94AUBa",
+        "uri": "https://open.spotify.com/track/11LmqTE2naFULdEP94AUBa",
         "track_href": "https://api.spotify.com/v1/tracks/11LmqTE2naFULdEP94AUBa",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/11LmqTE2naFULdEP94AUBa",
         "duration_ms": 281160,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Heart-Shaped Box"
     },
     {
         "danceability": 0.482,
@@ -53,11 +55,12 @@
         "tempo": 95.263,
         "type": "audio_features",
         "id": "3AhXZa8sUQht0UEdBJgpGc",
-        "uri": "spotify:track:3AhXZa8sUQht0UEdBJgpGc",
+        "uri": "https://open.spotify.com/track/3AhXZa8sUQht0UEdBJgpGc",
         "track_href": "https://api.spotify.com/v1/tracks/3AhXZa8sUQht0UEdBJgpGc",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/3AhXZa8sUQht0UEdBJgpGc",
         "duration_ms": 369600,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Like a Rolling Stone"
     },
     {
         "danceability": 0.454,
@@ -73,11 +76,12 @@
         "tempo": 174.216,
         "type": "audio_features",
         "id": "5bO7kXCc21MOj5MOeiBioU",
-        "uri": "spotify:track:5bO7kXCc21MOj5MOeiBioU",
+        "uri": "https://open.spotify.com/track/5bO7kXCc21MOj5MOeiBioU",
         "track_href": "https://api.spotify.com/v1/tracks/5bO7kXCc21MOj5MOeiBioU",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/5bO7kXCc21MOj5MOeiBioU",
         "duration_ms": 360323,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Trains"
     },
     {
         "danceability": 0.653,
@@ -93,11 +97,12 @@
         "tempo": 98.883,
         "type": "audio_features",
         "id": "1qRA5BS78u3gME0loMl9AA",
-        "uri": "spotify:track:1qRA5BS78u3gME0loMl9AA",
+        "uri": "https://open.spotify.com/track/1qRA5BS78u3gME0loMl9AA",
         "track_href": "https://api.spotify.com/v1/tracks/1qRA5BS78u3gME0loMl9AA",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/1qRA5BS78u3gME0loMl9AA",
         "duration_ms": 153693,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "For What It's Worth"
     },
     {
         "danceability": 0.645,
@@ -113,11 +118,12 @@
         "tempo": 90.565,
         "type": "audio_features",
         "id": "7nnWIPM5hwE3DaUBkvOIpy",
-        "uri": "spotify:track:7nnWIPM5hwE3DaUBkvOIpy",
+        "uri": "https://open.spotify.com/track/7nnWIPM5hwE3DaUBkvOIpy",
         "track_href": "https://api.spotify.com/v1/tracks/7nnWIPM5hwE3DaUBkvOIpy",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/7nnWIPM5hwE3DaUBkvOIpy",
         "duration_ms": 232453,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Drive"
     },
     {
         "danceability": 0.683,
@@ -133,11 +139,12 @@
         "tempo": 115.099,
         "type": "audio_features",
         "id": "2K2M0TcglCRLLpFOzKeFZA",
-        "uri": "spotify:track:2K2M0TcglCRLLpFOzKeFZA",
+        "uri": "https://open.spotify.com/track/2K2M0TcglCRLLpFOzKeFZA",
         "track_href": "https://api.spotify.com/v1/tracks/2K2M0TcglCRLLpFOzKeFZA",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/2K2M0TcglCRLLpFOzKeFZA",
         "duration_ms": 250400,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Sunshine of Your Love"
     },
     {
         "danceability": 0.277,
@@ -153,11 +160,12 @@
         "tempo": 104.561,
         "type": "audio_features",
         "id": "20I8RduZC2PWMWTDCZuuAN",
-        "uri": "spotify:track:20I8RduZC2PWMWTDCZuuAN",
+        "uri": "https://open.spotify.com/track/20I8RduZC2PWMWTDCZuuAN",
         "track_href": "https://api.spotify.com/v1/tracks/20I8RduZC2PWMWTDCZuuAN",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/20I8RduZC2PWMWTDCZuuAN",
         "duration_ms": 237027,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Take Me Out"
     },
     {
         "danceability": 0.699,
@@ -173,11 +181,12 @@
         "tempo": 105.266,
         "type": "audio_features",
         "id": "3ykSdTGmYPFl8pDBXer1zG",
-        "uri": "spotify:track:3ykSdTGmYPFl8pDBXer1zG",
+        "uri": "https://open.spotify.com/track/3ykSdTGmYPFl8pDBXer1zG",
         "track_href": "https://api.spotify.com/v1/tracks/3ykSdTGmYPFl8pDBXer1zG",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/3ykSdTGmYPFl8pDBXer1zG",
         "duration_ms": 221640,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Cocaine"
     },
     {
         "danceability": 0.424,
@@ -193,11 +202,12 @@
         "tempo": 144.636,
         "type": "audio_features",
         "id": "2nvC4i2aMo4CzRjRflysah",
-        "uri": "spotify:track:2nvC4i2aMo4CzRjRflysah",
+        "uri": "https://open.spotify.com/track/2nvC4i2aMo4CzRjRflysah",
         "track_href": "https://api.spotify.com/v1/tracks/2nvC4i2aMo4CzRjRflysah",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/2nvC4i2aMo4CzRjRflysah",
         "duration_ms": 226680,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "In My Place"
     },
     {
         "danceability": 0.832,
@@ -213,11 +223,12 @@
         "tempo": 100.163,
         "type": "audio_features",
         "id": "5CMjjywI0eZMixPeqNd75R",
-        "uri": "spotify:track:5CMjjywI0eZMixPeqNd75R",
+        "uri": "https://open.spotify.com/track/5CMjjywI0eZMixPeqNd75R",
         "track_href": "https://api.spotify.com/v1/tracks/5CMjjywI0eZMixPeqNd75R",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/5CMjjywI0eZMixPeqNd75R",
         "duration_ms": 353893,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Lose Yourself to Dance (feat. Pharrell Williams)"
     },
     {
         "danceability": 0.556,
@@ -233,11 +244,12 @@
         "tempo": 96.184,
         "type": "audio_features",
         "id": "10Nmj3JCNoMeBQ87uw5j8k",
-        "uri": "spotify:track:10Nmj3JCNoMeBQ87uw5j8k",
+        "uri": "https://open.spotify.com/track/10Nmj3JCNoMeBQ87uw5j8k",
         "track_href": "https://api.spotify.com/v1/tracks/10Nmj3JCNoMeBQ87uw5j8k",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/10Nmj3JCNoMeBQ87uw5j8k",
         "duration_ms": 282160,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Dani California"
     },
     {
         "danceability": 0.324,
@@ -253,11 +265,12 @@
         "tempo": 133.568,
         "type": "audio_features",
         "id": "05uGBKRCuePsf43Hfm0JwX",
-        "uri": "spotify:track:05uGBKRCuePsf43Hfm0JwX",
+        "uri": "https://open.spotify.com/track/05uGBKRCuePsf43Hfm0JwX",
         "track_href": "https://api.spotify.com/v1/tracks/05uGBKRCuePsf43Hfm0JwX",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/05uGBKRCuePsf43Hfm0JwX",
         "duration_ms": 226667,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Brain Damage"
     },
     {
         "danceability": 0.703,
@@ -272,12 +285,13 @@
         "valence": 0.712,
         "tempo": 150.96,
         "type": "audio_features",
-        "id": "3S0OXQeoh0w6AY8WQVckRW",
-        "uri": "spotify:track:3S0OXQeoh0w6AY8WQVckRW",
-        "track_href": "https://api.spotify.com/v1/tracks/3S0OXQeoh0w6AY8WQVckRW",
-        "analysis_url": "https://api.spotify.com/v1/audio-analysis/3S0OXQeoh0w6AY8WQVckRW",
+        "id": "1EzrEOXmMH3G43AXT1y7pA",
+        "uri": "https://open.spotify.com/track/1EzrEOXmMH3G43AXT1y7pA",
+        "track_href": "https://api.spotify.com/v1/tracks/1EzrEOXmMH3G43AXT1y7pA",
+        "analysis_url": "https://api.spotify.com/v1/audio-analysis/1EzrEOXmMH3G43AXT1y7pA",
         "duration_ms": 242947,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "I'm Yours"
     },
     {
         "danceability": 0.653,
@@ -293,11 +307,12 @@
         "tempo": 123.188,
         "type": "audio_features",
         "id": "54eZmuggBFJbV7k248bTTt",
-        "uri": "spotify:track:54eZmuggBFJbV7k248bTTt",
+        "uri": "https://open.spotify.com/track/54eZmuggBFJbV7k248bTTt",
         "track_href": "https://api.spotify.com/v1/tracks/54eZmuggBFJbV7k248bTTt",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/54eZmuggBFJbV7k248bTTt",
         "duration_ms": 252240,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "A Horse With No Name"
     },
     {
         "danceability": 0.615,
@@ -313,11 +328,12 @@
         "tempo": 150.093,
         "type": "audio_features",
         "id": "3n69hLUdIsSa1WlRmjMZlW",
-        "uri": "spotify:track:3n69hLUdIsSa1WlRmjMZlW",
+        "uri": "https://open.spotify.com/track/3n69hLUdIsSa1WlRmjMZlW",
         "track_href": "https://api.spotify.com/v1/tracks/3n69hLUdIsSa1WlRmjMZlW",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/3n69hLUdIsSa1WlRmjMZlW",
         "duration_ms": 227080,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Breezeblocks"
     },
     {
         "danceability": 0.685,
@@ -333,11 +349,12 @@
         "tempo": 79.936,
         "type": "audio_features",
         "id": "0DwClY2t9YAWHBROMIgrXb",
-        "uri": "spotify:track:0DwClY2t9YAWHBROMIgrXb",
+        "uri": "https://open.spotify.com/track/0DwClY2t9YAWHBROMIgrXb",
         "track_href": "https://api.spotify.com/v1/tracks/0DwClY2t9YAWHBROMIgrXb",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/0DwClY2t9YAWHBROMIgrXb",
         "duration_ms": 163133,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Ho Hey"
     },
     {
         "danceability": 0.333,
@@ -353,11 +370,12 @@
         "tempo": 141.466,
         "type": "audio_features",
         "id": "5QTxFnGygVM4jFQiBovmRo",
-        "uri": "spotify:track:5QTxFnGygVM4jFQiBovmRo",
+        "uri": "https://open.spotify.com/track/5QTxFnGygVM4jFQiBovmRo",
         "track_href": "https://api.spotify.com/v1/tracks/5QTxFnGygVM4jFQiBovmRo",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/5QTxFnGygVM4jFQiBovmRo",
         "duration_ms": 308120,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "(Don't Fear) The Reaper"
     },
     {
         "danceability": 0.589,
@@ -373,11 +391,12 @@
         "tempo": 88.409,
         "type": "audio_features",
         "id": "5YqpHuXpFjDVZ7tY1ClFll",
-        "uri": "spotify:track:5YqpHuXpFjDVZ7tY1ClFll",
+        "uri": "https://open.spotify.com/track/5YqpHuXpFjDVZ7tY1ClFll",
         "track_href": "https://api.spotify.com/v1/tracks/5YqpHuXpFjDVZ7tY1ClFll",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/5YqpHuXpFjDVZ7tY1ClFll",
         "duration_ms": 161680,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Heartbeats"
     },
     {
         "danceability": 0.458,
@@ -393,11 +412,12 @@
         "tempo": 123.229,
         "type": "audio_features",
         "id": "64BbK9SFKH2jk86U3dGj2P",
-        "uri": "spotify:track:64BbK9SFKH2jk86U3dGj2P",
+        "uri": "https://open.spotify.com/track/64BbK9SFKH2jk86U3dGj2P",
         "track_href": "https://api.spotify.com/v1/tracks/64BbK9SFKH2jk86U3dGj2P",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/64BbK9SFKH2jk86U3dGj2P",
         "duration_ms": 255373,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Otherside"
     },
     {
         "danceability": 0.762,
@@ -413,11 +433,12 @@
         "tempo": 116.073,
         "type": "audio_features",
         "id": "2ekn2ttSfGqwhhate0LSR0",
-        "uri": "spotify:track:2ekn2ttSfGqwhhate0LSR0",
+        "uri": "https://open.spotify.com/track/2ekn2ttSfGqwhhate0LSR0",
         "track_href": "https://api.spotify.com/v1/tracks/2ekn2ttSfGqwhhate0LSR0",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/2ekn2ttSfGqwhhate0LSR0",
         "duration_ms": 209320,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "New Rules"
     },
     {
         "danceability": 0.475,
@@ -433,11 +454,12 @@
         "tempo": 94.605,
         "type": "audio_features",
         "id": "6ORqU0bHbVCRjXm9AjyHyZ",
-        "uri": "spotify:track:6ORqU0bHbVCRjXm9AjyHyZ",
+        "uri": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ",
         "track_href": "https://api.spotify.com/v1/tracks/6ORqU0bHbVCRjXm9AjyHyZ",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/6ORqU0bHbVCRjXm9AjyHyZ",
         "duration_ms": 153467,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Good Riddance (Time of Your Life)"
     },
     {
         "danceability": 0.514,
@@ -453,11 +475,12 @@
         "tempo": 123.067,
         "type": "audio_features",
         "id": "7clUVcSOtkNWa58Gw5RfD4",
-        "uri": "spotify:track:7clUVcSOtkNWa58Gw5RfD4",
+        "uri": "https://open.spotify.com/track/7clUVcSOtkNWa58Gw5RfD4",
         "track_href": "https://api.spotify.com/v1/tracks/7clUVcSOtkNWa58Gw5RfD4",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/7clUVcSOtkNWa58Gw5RfD4",
         "duration_ms": 287907,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Speed of Sound"
     },
     {
         "danceability": 0.602,
@@ -473,11 +496,12 @@
         "tempo": 125.012,
         "type": "audio_features",
         "id": "2X485T9Z5Ly0xyaghN73ed",
-        "uri": "spotify:track:2X485T9Z5Ly0xyaghN73ed",
+        "uri": "https://open.spotify.com/track/2X485T9Z5Ly0xyaghN73ed",
         "track_href": "https://api.spotify.com/v1/tracks/2X485T9Z5Ly0xyaghN73ed",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/2X485T9Z5Ly0xyaghN73ed",
         "duration_ms": 467587,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Let It Happen"
     },
     {
         "danceability": 0.717,
@@ -493,11 +517,12 @@
         "tempo": 127.812,
         "type": "audio_features",
         "id": "2ixsaeFioXJmMgkkbd4uj1",
-        "uri": "spotify:track:2ixsaeFioXJmMgkkbd4uj1",
+        "uri": "https://open.spotify.com/track/2ixsaeFioXJmMgkkbd4uj1",
         "track_href": "https://api.spotify.com/v1/tracks/2ixsaeFioXJmMgkkbd4uj1",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/2ixsaeFioXJmMgkkbd4uj1",
         "duration_ms": 200733,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Budapest"
     },
     {
         "danceability": 0.557,
@@ -513,11 +538,12 @@
         "tempo": 143.994,
         "type": "audio_features",
         "id": "3NLrRZoMF0Lx6zTlYqeIo4",
-        "uri": "spotify:track:3NLrRZoMF0Lx6zTlYqeIo4",
+        "uri": "https://open.spotify.com/track/3NLrRZoMF0Lx6zTlYqeIo4",
         "track_href": "https://api.spotify.com/v1/tracks/3NLrRZoMF0Lx6zTlYqeIo4",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/3NLrRZoMF0Lx6zTlYqeIo4",
         "duration_ms": 238733,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Here Without You"
     },
     {
         "danceability": 0.679,
@@ -533,11 +559,12 @@
         "tempo": 127.435,
         "type": "audio_features",
         "id": "3gbBpTdY8lnQwqxNCcf795",
-        "uri": "spotify:track:3gbBpTdY8lnQwqxNCcf795",
+        "uri": "https://open.spotify.com/track/3gbBpTdY8lnQwqxNCcf795",
         "track_href": "https://api.spotify.com/v1/tracks/3gbBpTdY8lnQwqxNCcf795",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/3gbBpTdY8lnQwqxNCcf795",
         "duration_ms": 214148,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Pompeii"
     },
     {
         "danceability": 0.303,
@@ -553,11 +580,12 @@
         "tempo": 149.508,
         "type": "audio_features",
         "id": "0LtOwyZoSNZKJWHqjzADpW",
-        "uri": "spotify:track:0LtOwyZoSNZKJWHqjzADpW",
+        "uri": "https://open.spotify.com/track/0LtOwyZoSNZKJWHqjzADpW",
         "track_href": "https://api.spotify.com/v1/tracks/0LtOwyZoSNZKJWHqjzADpW",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/0LtOwyZoSNZKJWHqjzADpW",
         "duration_ms": 192960,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Feels Like We Only Go Backwards"
     },
     {
         "danceability": 0.18,
@@ -573,11 +601,12 @@
         "tempo": 94.079,
         "type": "audio_features",
         "id": "6pWgRkpqVfxnj3WuIcJ7WP",
-        "uri": "spotify:track:6pWgRkpqVfxnj3WuIcJ7WP",
+        "uri": "https://open.spotify.com/track/6pWgRkpqVfxnj3WuIcJ7WP",
         "track_href": "https://api.spotify.com/v1/tracks/6pWgRkpqVfxnj3WuIcJ7WP",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/6pWgRkpqVfxnj3WuIcJ7WP",
         "duration_ms": 126960,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Cornfield Chase"
     },
     {
         "danceability": 0.602,
@@ -593,11 +622,12 @@
         "tempo": 122.062,
         "type": "audio_features",
         "id": "2QhURnm7mQDxBb5jWkbDug",
-        "uri": "spotify:track:2QhURnm7mQDxBb5jWkbDug",
+        "uri": "https://open.spotify.com/track/2QhURnm7mQDxBb5jWkbDug",
         "track_href": "https://api.spotify.com/v1/tracks/2QhURnm7mQDxBb5jWkbDug",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/2QhURnm7mQDxBb5jWkbDug",
         "duration_ms": 136867,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Don't Panic"
     },
     {
         "danceability": 0.658,
@@ -613,11 +643,12 @@
         "tempo": 103.962,
         "type": "audio_features",
         "id": "4RCWB3V8V0dignt99LZ8vH",
-        "uri": "spotify:track:4RCWB3V8V0dignt99LZ8vH",
+        "uri": "https://open.spotify.com/track/4RCWB3V8V0dignt99LZ8vH",
         "track_href": "https://api.spotify.com/v1/tracks/4RCWB3V8V0dignt99LZ8vH",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/4RCWB3V8V0dignt99LZ8vH",
         "duration_ms": 232533,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Hey There Delilah"
     },
     {
         "danceability": 0.565,
@@ -633,11 +664,12 @@
         "tempo": 139.757,
         "type": "audio_features",
         "id": "0R8P9KfGJCDULmlEoBagcO",
-        "uri": "spotify:track:0R8P9KfGJCDULmlEoBagcO",
+        "uri": "https://open.spotify.com/track/0R8P9KfGJCDULmlEoBagcO",
         "track_href": "https://api.spotify.com/v1/tracks/0R8P9KfGJCDULmlEoBagcO",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/0R8P9KfGJCDULmlEoBagcO",
         "duration_ms": 273427,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Trouble"
     },
     {
         "danceability": 0.539,
@@ -653,11 +685,12 @@
         "tempo": 105.25,
         "type": "audio_features",
         "id": "54bm2e3tk8cliUz3VSdCPZ",
-        "uri": "spotify:track:54bm2e3tk8cliUz3VSdCPZ",
+        "uri": "https://open.spotify.com/track/54bm2e3tk8cliUz3VSdCPZ",
         "track_href": "https://api.spotify.com/v1/tracks/54bm2e3tk8cliUz3VSdCPZ",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/54bm2e3tk8cliUz3VSdCPZ",
         "duration_ms": 515387,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Master of Puppets"
     },
     {
         "danceability": 0.578,
@@ -673,11 +706,12 @@
         "tempo": 128.038,
         "type": "audio_features",
         "id": "4kbj5MwxO1bq9wjT5g9HaA",
-        "uri": "spotify:track:4kbj5MwxO1bq9wjT5g9HaA",
+        "uri": "https://open.spotify.com/track/4kbj5MwxO1bq9wjT5g9HaA",
         "track_href": "https://api.spotify.com/v1/tracks/4kbj5MwxO1bq9wjT5g9HaA",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/4kbj5MwxO1bq9wjT5g9HaA",
         "duration_ms": 199080,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Shut Up and Dance"
     },
     {
         "danceability": 0.54,
@@ -693,11 +727,12 @@
         "tempo": 110.171,
         "type": "audio_features",
         "id": "6ADSaE87h8Y3lccZlBJdXH",
-        "uri": "spotify:track:6ADSaE87h8Y3lccZlBJdXH",
+        "uri": "https://open.spotify.com/track/6ADSaE87h8Y3lccZlBJdXH",
         "track_href": "https://api.spotify.com/v1/tracks/6ADSaE87h8Y3lccZlBJdXH",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/6ADSaE87h8Y3lccZlBJdXH",
         "duration_ms": 295516,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "With or Without You"
     },
     {
         "danceability": 0.286,
@@ -713,11 +748,12 @@
         "tempo": 62.881,
         "type": "audio_features",
         "id": "6ZFbXIJkuI1dVNWvzJzown",
-        "uri": "spotify:track:6ZFbXIJkuI1dVNWvzJzown",
+        "uri": "https://open.spotify.com/track/6ZFbXIJkuI1dVNWvzJzown",
         "track_href": "https://api.spotify.com/v1/tracks/6ZFbXIJkuI1dVNWvzJzown",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/6ZFbXIJkuI1dVNWvzJzown",
         "duration_ms": 275556,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Time"
     },
     {
         "danceability": 0.836,
@@ -733,11 +769,12 @@
         "tempo": 111.963,
         "type": "audio_features",
         "id": "6o1l9I0faXJN2iqulHrdCQ",
-        "uri": "spotify:track:6o1l9I0faXJN2iqulHrdCQ",
+        "uri": "https://open.spotify.com/track/6o1l9I0faXJN2iqulHrdCQ",
         "track_href": "https://api.spotify.com/v1/tracks/6o1l9I0faXJN2iqulHrdCQ",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/6o1l9I0faXJN2iqulHrdCQ",
         "duration_ms": 182066,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Crazy"
     },
     {
         "danceability": 0.356,
@@ -753,11 +790,12 @@
         "tempo": 166.3,
         "type": "audio_features",
         "id": "5G1sTBGbZT5o4PNRc75RKI",
-        "uri": "spotify:track:5G1sTBGbZT5o4PNRc75RKI",
+        "uri": "https://open.spotify.com/track/5G1sTBGbZT5o4PNRc75RKI",
         "track_href": "https://api.spotify.com/v1/tracks/5G1sTBGbZT5o4PNRc75RKI",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/5G1sTBGbZT5o4PNRc75RKI",
         "duration_ms": 193653,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Lonely Boy"
     },
     {
         "danceability": 0.548,
@@ -773,11 +811,12 @@
         "tempo": 95.39,
         "type": "audio_features",
         "id": "6UelLqGlWMcVH1E5c4H7lY",
-        "uri": "spotify:track:6UelLqGlWMcVH1E5c4H7lY",
+        "uri": "https://open.spotify.com/track/6UelLqGlWMcVH1E5c4H7lY",
         "track_href": "https://api.spotify.com/v1/tracks/6UelLqGlWMcVH1E5c4H7lY",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/6UelLqGlWMcVH1E5c4H7lY",
         "duration_ms": 174000,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Watermelon Sugar"
     },
     {
         "danceability": 0.413,
@@ -793,11 +832,12 @@
         "tempo": 116.68,
         "type": "audio_features",
         "id": "0snQkGI5qnAmohLE7jTsTn",
-        "uri": "spotify:track:0snQkGI5qnAmohLE7jTsTn",
+        "uri": "https://open.spotify.com/track/0snQkGI5qnAmohLE7jTsTn",
         "track_href": "https://api.spotify.com/v1/tracks/0snQkGI5qnAmohLE7jTsTn",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/0snQkGI5qnAmohLE7jTsTn",
         "duration_ms": 218933,
-        "time_signature": 3
+        "time_signature": 3,
+        "track_name": "Toxicity"
     },
     {
         "danceability": 0.531,
@@ -813,11 +853,12 @@
         "tempo": 139.503,
         "type": "audio_features",
         "id": "7lwvxYumAEo10lzAplRGXM",
-        "uri": "spotify:track:7lwvxYumAEo10lzAplRGXM",
+        "uri": "https://open.spotify.com/track/7lwvxYumAEo10lzAplRGXM",
         "track_href": "https://api.spotify.com/v1/tracks/7lwvxYumAEo10lzAplRGXM",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/7lwvxYumAEo10lzAplRGXM",
         "duration_ms": 387160,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "The Unforgiven"
     },
     {
         "danceability": 0.728,
@@ -833,11 +874,12 @@
         "tempo": 100.017,
         "type": "audio_features",
         "id": "54PbBpquVfhfrwRwvjSXbI",
-        "uri": "spotify:track:54PbBpquVfhfrwRwvjSXbI",
+        "uri": "https://open.spotify.com/track/54PbBpquVfhfrwRwvjSXbI",
         "track_href": "https://api.spotify.com/v1/tracks/54PbBpquVfhfrwRwvjSXbI",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/54PbBpquVfhfrwRwvjSXbI",
         "duration_ms": 217707,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "We Don't Talk Anymore (feat. Selena Gomez)"
     },
     {
         "danceability": 0.908,
@@ -853,11 +895,12 @@
         "tempo": 112.238,
         "type": "audio_features",
         "id": "7lQ8MOhq6IN2w8EYcFNSUk",
-        "uri": "spotify:track:7lQ8MOhq6IN2w8EYcFNSUk",
+        "uri": "https://open.spotify.com/track/7lQ8MOhq6IN2w8EYcFNSUk",
         "track_href": "https://api.spotify.com/v1/tracks/7lQ8MOhq6IN2w8EYcFNSUk",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/7lQ8MOhq6IN2w8EYcFNSUk",
         "duration_ms": 290320,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Without Me"
     },
     {
         "danceability": 0.592,
@@ -873,11 +916,12 @@
         "tempo": 76.366,
         "type": "audio_features",
         "id": "3B3eOgLJSqPEA0RfboIQVM",
-        "uri": "spotify:track:3B3eOgLJSqPEA0RfboIQVM",
+        "uri": "https://open.spotify.com/track/3B3eOgLJSqPEA0RfboIQVM",
         "track_href": "https://api.spotify.com/v1/tracks/3B3eOgLJSqPEA0RfboIQVM",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/3B3eOgLJSqPEA0RfboIQVM",
         "duration_ms": 238520,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Skinny Love"
     },
     {
         "danceability": 0.675,
@@ -893,11 +937,12 @@
         "tempo": 120.991,
         "type": "audio_features",
         "id": "3vqJY3pVELLIxqXXyI08yr",
-        "uri": "spotify:track:3vqJY3pVELLIxqXXyI08yr",
+        "uri": "https://open.spotify.com/track/3vqJY3pVELLIxqXXyI08yr",
         "track_href": "https://api.spotify.com/v1/tracks/3vqJY3pVELLIxqXXyI08yr",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/3vqJY3pVELLIxqXXyI08yr",
         "duration_ms": 282973,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Roobaroo"
     },
     {
         "danceability": 0.543,
@@ -913,11 +958,12 @@
         "tempo": 100.804,
         "type": "audio_features",
         "id": "0GjEhVFGZW8afUYGChu3Rr",
-        "uri": "spotify:track:0GjEhVFGZW8afUYGChu3Rr",
+        "uri": "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr",
         "track_href": "https://api.spotify.com/v1/tracks/0GjEhVFGZW8afUYGChu3Rr",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/0GjEhVFGZW8afUYGChu3Rr",
         "duration_ms": 230400,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Dancing Queen"
     },
     {
         "danceability": 0.604,
@@ -933,11 +979,12 @@
         "tempo": 126.06,
         "type": "audio_features",
         "id": "0lHAMNU8RGiIObScrsRgmP",
-        "uri": "spotify:track:0lHAMNU8RGiIObScrsRgmP",
+        "uri": "https://open.spotify.com/track/0lHAMNU8RGiIObScrsRgmP",
         "track_href": "https://api.spotify.com/v1/tracks/0lHAMNU8RGiIObScrsRgmP",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/0lHAMNU8RGiIObScrsRgmP",
         "duration_ms": 245040,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Titanium (feat. Sia)"
     },
     {
         "danceability": 0.398,
@@ -953,11 +1000,12 @@
         "tempo": 159.989,
         "type": "audio_features",
         "id": "6HODkZg8Jm7kG8sk8zXyfn",
-        "uri": "spotify:track:6HODkZg8Jm7kG8sk8zXyfn",
+        "uri": "https://open.spotify.com/track/6HODkZg8Jm7kG8sk8zXyfn",
         "track_href": "https://api.spotify.com/v1/tracks/6HODkZg8Jm7kG8sk8zXyfn",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/6HODkZg8Jm7kG8sk8zXyfn",
         "duration_ms": 721800,
-        "time_signature": 4
+        "time_signature": 4,
+        "track_name": "Arriving Somewhere but Not Here"
     },
     {
         "danceability": 0.417,
@@ -973,10 +1021,11 @@
         "tempo": 157.113,
         "type": "audio_features",
         "id": "1LzNfuep1bnAUR9skqdHCK",
-        "uri": "spotify:track:1LzNfuep1bnAUR9skqdHCK",
+        "uri": "https://open.spotify.com/track/1LzNfuep1bnAUR9skqdHCK",
         "track_href": "https://api.spotify.com/v1/tracks/1LzNfuep1bnAUR9skqdHCK",
         "analysis_url": "https://api.spotify.com/v1/audio-analysis/1LzNfuep1bnAUR9skqdHCK",
         "duration_ms": 295600,
-        "time_signature": 3
+        "time_signature": 3,
+        "track_name": "Fade Into You"
     }
 ]
