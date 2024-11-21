@@ -24,8 +24,8 @@ Don't Stop Believin' - Journey
 Say It Ain't So - Weezer
 Losing My Religion - R.E.M.
 Riptide - Vance Joy
-Kids - MGMT
 Zombie - The Cranberries
+Kids - MGMT
 Buddy Holly - Weezer
 Basket Case - Green Day
 All I Want for Christmas Is You - Mariah Carey
@@ -45,6 +45,156 @@ Killing in the Name - Rage Against the Machine
 Fade Into You - Mazzy Star
 The Hills - The Weeknd
 Royals - Lorde
+Yellow - Coldplay
 Gimme Shelter - The Rolling Stones
 Semi-Charmed Life - Third Eye Blind
 Intro - The xx
+Loser - Beck
+Billie Jean - Michael Jackson
+Paranoid Android - Radiohead
+Brown Eyed Girl - Van Morrison
+Let It Happen - Tame Impala
+Bad Moon Rising - Creedence Clearwater Revival
+No One Knows - Queens of the Stone Age
+Californication - Red Hot Chili Peppers
+Sorry - Justin Bieber
+Holocene - Bon Iver
+bad guy - Billie Eilish
+Dog Days Are Over - Florence + the Machine
+Landslide - Fleetwood Mac
+Chop Suey! - System of a Down
+King Kunta - Kendrick Lamar
+Blinding Lights - The Weeknd
+Teardrop - Massive Attack
+What's My Age Again? - blink-182
+No Surprises - Radiohead
+Bitter Sweet Symphony - The Verve
+Feel It Still - Portugal. The Man
+Scar Tissue - Red Hot Chili Peppers
+(Don't Fear) The Reaper - Blue Öyster Cult
+Paper Planes - M.I.A.
+Wish You Were Here - Pink Floyd
+Friday I'm in Love - The Cure
+Reptilia - The Strokes
+Take Me to Church - Hozier
+A-Punk - Vampire Weekend
+One More Time - Daft Punk
+Time to Pretend - MGMT
+In the End - Linkin Park
+White Winter Hymnal - Fleet Foxes
+Rebellion (Lies) - Arcade Fire
+Somebody Told Me - The Killers
+More Than a Feeling - Boston
+1901 - Phoenix
+Heart-Shaped Box - Nirvana
+Someday - The Strokes
+Where Is My Mind? - Pixies
+Maps - Yeah Yeah Yeahs
+Dancing Queen - ABBA
+For What It's Worth - Buffalo Springfield
+Rockin' Around The Christmas Tree - Brenda Lee
+Sweet Child o' Mine - Guns N' Roses
+Sultans of Swing - Dire Straits
+Burn the Witch - Radiohead
+Space Song - Beach House
+The Suburbs - Arcade Fire
+All Star - Smash Mouth
+No Rain - Blind Melon
+Lithium - Nirvana
+Wake Up - Arcade Fire
+Jingle Bell Rock - Bobby Helms
+Tainted Love - Soft Cell
+Sabotage - Beastie Boys
+Everything in Its Right Place - Radiohead
+Santeria - Sublime
+Just Like Heaven - The Cure
+Mr. Blue Sky - Electric Light Orchestra
+When I Come Around - Green Day
+New Slang - The Shins
+Linger - The Cranberries
+Lonely Boy - The Black Keys
+Fake Plastic Trees - Radiohead
+Mr. Jones - Counting Crows
+Breezeblocks - alt-J
+It's the Most Wonderful Time of the Year - Andy Williams
+Don't You (Forget About Me) - Simple Minds
+Alright - Kendrick Lamar
+Feels Like We Only Go Backwards - Tame Impala
+Stressed Out - Twenty One Pilots
+Every Breath You Take - The Police
+Walking on a Dream - Empire of the Sun
+Clint Eastwood - Gorillaz
+Toxic - Britney Spears
+The Scientist - Coldplay
+Howlin' for You - The Black Keys
+No Scrubs - TLC
+Fast Car - Tracy Chapman
+When You Were Young - The Killers
+Dreams - 2004 Remaster - Fleetwood Mac
+Numb - Linkin Park
+Money - Pink Floyd
+All Along the Watchtower - Jimi Hendrix
+Don't Speak - No Doubt
+Shape of You - Ed Sheeran
+Little Talks - Of Monsters and Men
+Ho Hey - The Lumineers
+Shake It Off - Taylor Swift
+Wonderwall - Oasis
+What Do You Mean? - Justin Bieber
+DNA. - Kendrick Lamar
+Ms. Jackson - OutKast
+I Will Follow You Into The Dark - Death Cab for Cutie
+Tiny Dancer - Elton John
+Baba O'Riley - The Who
+Starboy - The Weeknd
+Dancing in the Dark - Bruce Springsteen
+Viva la Vida - Coldplay
+Drive - Incubus
+Last Christmas - Wham!
+I Want You Back - The Jackson 5
+Stuck in the Middle With You - Stealers Wheel
+Cheap Thrills - Sia
+(Sittin' On) The Dock of the Bay - Otis Redding
+You Can Call Me Al - Paul Simon
+Rolling in the Deep - Adele
+Ain't No Sunshine - Bill Withers
+Shut Up and Dance - Walk the Moon
+Stronger - Kanye West
+Otherside - Red Hot Chili Peppers
+Can't Stop - Red Hot Chili Peppers
+Highway to Hell - AC/DC
+Lisztomania - Phoenix
+It's Beginning to Look a Lot Like Christmas - Michael Bublé
+The Kids Aren't Alright - The Offspring
+Just a Girl - No Doubt
+Bohemian Rhapsody - Queen
+Sweet Home Alabama - Lynyrd Skynyrd
+Mykonos - Fleet Foxes
+Heartbeats - José González
+I Wanna Dance with Somebody (Who Loves Me) - Whitney Houston
+Bulls on Parade - Rage Against the Machine
+Oblivion - Grimes
+Ophelia - The Lumineers
+Sex on Fire - Kings of Leon
+1234 - Feist
+One Dance - Drake
+Fell in Love With a Girl - The White Stripes
+Home - Edward Sharpe & The Magnetic Zeros
+Thriller - Michael Jackson
+Walk on the Wild Side - Lou Reed
+Pink + White - Frank Ocean
+Harder, Better, Faster, Stronger - Daft Punk
+Back in Black - AC/DC
+I Want It That Way - Backstreet Boys
+Come on Eileen - Dexys Midnight Runners
+Avril 14th - Aphex Twin
+Pink Moon - Nick Drake
+Livin' on a Prayer - Bon Jovi
+Young Folks - Peter Bjorn and John
+Blue Christmas - Elvis Presley
+In the Aeroplane Over the Sea - Neutral Milk Hotel
+Elephant - Tame Impala
+You Shook Me All Night Long - AC/DC
+Genesis - Grimes
+About a Girl - Nirvana
+What You Know - Two Door Cinema Club

@@ -13,14 +13,14 @@ Take Me Out - Franz Ferdinand
 Midnight City - M83
 Nightcall - Kavinsky
 Take on Me - a-ha
-Where Is My Mind? - Pixies
 The Less I Know the Better - Tame Impala
+Where Is My Mind? - Pixies
 Under the Bridge - Red Hot Chili Peppers
 Losing My Religion - R.E.M.
 Do I Wanna Know? - Arctic Monkeys
 Come - Jain
-Feel Good Inc. - Gorillaz
 Killing in the Name - Rage Against the Machine
+Feel Good Inc. - Gorillaz
 Boys Don't Cry - The Cure
 Intro - The xx
 The Look - Metronomy
@@ -48,3 +48,153 @@ One More Time - Daft Punk
 Every Breath You Take - The Police
 Instant Crush (feat. Julian Casablancas) - Daft Punk
 Chandelier - Sia
+Breezeblocks - alt-J
+Feel It Still - Portugal. The Man
+J'T'Emmène Au Vent - Louise Attaque
+Chop Suey! - System of a Down
+The Passenger - Iggy Pop
+Stressed Out - Twenty One Pilots
+If I Ever Feel Better - Phoenix
+Tainted Love - Soft Cell
+Bohemian Rhapsody - Queen
+Le vent nous portera - Noir Désir
+Back in Black - AC/DC
+All Along the Watchtower - Jimi Hendrix
+Hallelujah - Jeff Buckley
+Scar Tissue - Red Hot Chili Peppers
+Crazy - Gnarls Barkley
+Porcelain - Moby
+Nothing Else Matters - Metallica
+Skinny Love - Bon Iver
+Rolling in the Deep - Adele
+Mr. Brightside - The Killers
+Let It Happen - Tame Impala
+Roxanne - The Police
+Can't Feel My Face - The Weeknd
+Take Me to Church - Hozier
+Ain't No Sunshine - Bill Withers
+Playground Love - Air
+In the End - Linkin Park
+Harder, Better, Faster, Stronger - Daft Punk
+Royals - Lorde
+Clint Eastwood - Gorillaz
+Radioactive - Imagine Dragons
+Enjoy the Silence - Depeche Mode
+Sweet Child o' Mine - Guns N' Roses
+(Sittin' On) The Dock of the Bay - Otis Redding
+Lisztomania - Phoenix
+Girls Just Want to Have Fun - Cyndi Lauper
+Somebody That I Used To Know - Gotye
+Close to Me - The Cure
+Angel - Massive Attack
+Blinding Lights - The Weeknd
+Stairway to Heaven - Led Zeppelin
+Paranoid - Black Sabbath
+Jimmy - Moriarty
+Last Nite - The Strokes
+Around the World - Daft Punk
+Stolen Dance - Milky Chance
+The Scientist - Coldplay
+Sunday Morning - The Velvet Underground
+Crystalised - The xx
+Heartbeats - José González
+Dream On - Aerosmith
+Numb - Linkin Park
+Toxicity - System of a Down
+Love Will Tear Us Apart - Joy Division
+Two Weeks - Grizzly Bear
+Uprising - Muse
+L'Aventurier - Indochine
+Lithium - Nirvana
+Walking on a Dream - Empire of the Sun
+Lonely Boy - The Black Keys
+What You Know - Two Door Cinema Club
+Son of a Preacher Man - Dusty Springfield
+Can't Stop - Red Hot Chili Peppers
+Home - Edward Sharpe & The Magnetic Zeros
+Paranoid Android - Radiohead
+A Horse With No Name - America
+Black Hole Sun - Soundgarden
+No One Knows - Queens of the Stone Age
+Still D.R.E. - Dr. Dre
+Perfect Day - Lou Reed
+Reptilia - The Strokes
+The Kids Aren't Alright - The Offspring
+Paint It Black - The Rolling Stones
+All I Want for Christmas Is You - Mariah Carey
+Makeba - Jain
+Loser - Beck
+I Want You Back - The Jackson 5
+Viva la Vida - Coldplay
+Toxic - Britney Spears
+bad guy - Billie Eilish
+Are You Gonna Be My Girl - Jet
+Starlight - Muse
+Rehab - Amy Winehouse
+Break on Through (to the Other Side) - The Doors
+Gimme Shelter - The Rolling Stones
+Enter Sandman - Metallica
+High and Dry - Radiohead
+Song 2 - Blur
+Nantes - Beirut
+Ain't No Mountain High Enough - Marvin Gaye
+Everlong - Foo Fighters
+My Number - Foals
+Paradise Circus - Massive Attack
+Eye of the Tiger - Survivor
+Respect - Aretha Franklin
+Uptown Funk - Mark Ronson
+Yellow - Coldplay
+Call Me - Blondie
+Thunderstruck - AC/DC
+Ho Hey - The Lumineers
+Down the Road - C2C
+Christine - Christine and the Queens
+Somewhere Only We Know - Keane
+I Feel It Coming - The Weeknd
+Starboy - The Weeknd
+1234 - Feist
+Riders on the Storm - The Doors
+About a Girl - Nirvana
+Island in the Sun - Weezer
+The Suburbs - Arcade Fire
+A-Punk - Vampire Weekend
+Riverside - Agnes Obel
+Dancing Queen - ABBA
+Hello - Adele
+The House of the Rising Sun - The Animals
+La Ritournelle - Sébastien Tellier
+Avril 14th - Aphex Twin
+Sexy Boy - Air
+Time to Pretend - MGMT
+Papaoutai - Stromae
+What's Up? - 4 Non Blondes
+Someone Like You - Adele
+Hurt - Johnny Cash
+Sex on Fire - Kings of Leon
+Like a Rolling Stone - Bob Dylan
+Everything in Its Right Place - Radiohead
+Wasting My Young Years - London Grammar
+La Nuit Je Mens - Alain Bashung
+Lean On (feat. MØ & DJ Snake) - Major Lazer
+Mountain At My Gates - Foals
+Human - Rag'n'Bone Man
+Thriller - Michael Jackson
+Roads - Portishead
+Ride - Twenty One Pilots
+Wake Me up Before You Go-Go - Wham!
+Comptine d'un autre été, L'Après-midi - Yann Tiersen
+Sugar (feat. Francesco Yates) - Robin Schulz
+One Dance - Drake
+Retrograde - James Blake
+Believer - Imagine Dragons
+Hold the Line - Toto
+Whole Lotta Love - Led Zeppelin
+Hymn for the Weekend - Coldplay
+Renegades - X Ambassadors
+I'm Yours - Jason Mraz
+The Bay - Metronomy
+Don't Speak - No Doubt
+Snow (Hey Oh) - Red Hot Chili Peppers
+The Man Who Sold the World - Nirvana
+Let's Stay Together - Al Green

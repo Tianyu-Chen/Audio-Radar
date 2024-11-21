@@ -17,8 +17,8 @@ Take on Me - a-ha
 Electric Feel - MGMT
 Friday I'm in Love - The Cure
 King Kunta - Kendrick Lamar
-Take Me Out - Franz Ferdinand
 Riptide - Vance Joy
+Take Me Out - Franz Ferdinand
 All the Small Things - blink-182
 Don't Dream It's Over - Crowded House
 No One Knows - Queens of the Stone Age
@@ -28,9 +28,9 @@ Redbone - Childish Gambino
 Walking on a Dream - Empire of the Sun
 Do I Wanna Know? - Arctic Monkeys
 Fortunate Son - Creedence Clearwater Revival
-Bitter Sweet Symphony - The Verve
 One More Time - Daft Punk
 Midnight City - M83
+Bitter Sweet Symphony - The Verve
 Losing My Religion - R.E.M.
 Hotline Bling - Drake
 Sweet Disposition - The Temper Trap
@@ -40,11 +40,161 @@ Royals - Lorde
 Scar Tissue - Red Hot Chili Peppers
 Last Nite - The Strokes
 The Middle - Jimmy Eat World
-Skinny Love - Bon Iver
 Dog Days Are Over - Florence + the Machine
+Skinny Love - Bon Iver
 Kids - MGMT
 Float On - Modest Mouse
 Black Hole Sun - Soundgarden
 Paranoid Android - Radiohead
 Never Tear Us Apart - INXS
 Feels Like We Only Go Backwards - Tame Impala
+Lean On (feat. MØ & DJ Snake) - Major Lazer
+Intro - The xx
+Zombie - The Cranberries
+Yellow - Coldplay
+Just Like Heaven - The Cure
+Fade Into You - Mazzy Star
+Need You Tonight - INXS
+Somebody That I Used To Know - Gotye
+Since I Left You - The Avalanches
+Somebody Told Me - The Killers
+All I Want for Christmas Is You - Mariah Carey
+Down Under - Men at Work
+Chop Suey! - System of a Down
+Banquet - Bloc Party
+No Scrubs - TLC
+High and Dry - Radiohead
+Don't Stop Believin' - Journey
+Sultans of Swing - Dire Straits
+Close to Me - The Cure
+My Happiness - Powderfinger
+HUMBLE. - Kendrick Lamar
+Sorry - Justin Bieber
+Running Up That Hill (A Deal With God) - Kate Bush
+What's My Age Again? - blink-182
+Island in the Sun - Weezer
+bad guy - Billie Eilish
+Elephant - Tame Impala
+You Can Call Me Al - Paul Simon
+No Surprises - Radiohead
+Billie Jean - Michael Jackson
+When You Were Young - The Killers
+Tiny Dancer - Elton John
+Paper Planes - M.I.A.
+Dreams - 2004 Remaster - Fleetwood Mac
+Landslide - Fleetwood Mac
+Heartbeats - José González
+Green Light - Lorde
+Boys Don't Cry - The Cure
+Tainted Love - Soft Cell
+Torn - Natalie Imbruglia
+A-Punk - Vampire Weekend
+Breezeblocks - alt-J
+Hello - Adele
+Dancing in the Dark - Bruce Springsteen
+In the End - Linkin Park
+Heart-Shaped Box - Nirvana
+The Hills - The Weeknd
+Never Be Like You - Flume
+Brown Eyed Girl - Van Morrison
+Blinding Lights - The Weeknd
+Loser - Beck
+Linger - The Cranberries
+Where Is My Mind? - Pixies
+Two Weeks - Grizzly Bear
+Basket Case - Green Day
+Burn the Witch - Radiohead
+Semi-Charmed Life - Third Eye Blind
+Time to Pretend - MGMT
+Fast Car - Tracy Chapman
+All Star - Smash Mouth
+Sex on Fire - Kings of Leon
+Stuck in the Middle With You - Stealers Wheel
+Feel It Still - Portugal. The Man
+Everything in Its Right Place - Radiohead
+Love Will Tear Us Apart - Joy Division
+Reptilia - The Strokes
+Enter Sandman - Metallica
+Shake It Off - Taylor Swift
+Gimme Shelter - The Rolling Stones
+Eventually - Tame Impala
+Crazy - Gnarls Barkley
+The Moment - Tame Impala
+Wish You Were Here - Pink Floyd
+Rhiannon - Fleetwood Mac
+Can't Stop - Red Hot Chili Peppers
+Holocene - Bon Iver
+All Along the Watchtower - Jimi Hendrix
+Don't Speak - No Doubt
+I Wanna Dance with Somebody (Who Loves Me) - Whitney Houston
+Bad Moon Rising - Creedence Clearwater Revival
+Sweet Child o' Mine - Guns N' Roses
+Buddy Holly - Weezer
+Someday - The Strokes
+Lithium - Nirvana
+Weather With You - Crowded House
+The Scientist - Coldplay
+What Do You Mean? - Justin Bieber
+Mr. Blue Sky - Electric Light Orchestra
+Fake Plastic Trees - Radiohead
+Cheap Thrills - Sia
+Chandelier - Sia
+Glory Box - Portishead
+I MISS YOU - blink-182
+Ms. Jackson - OutKast
+1901 - Phoenix
+Good Riddance (Time of Your Life) - Green Day
+Drive - Incubus
+New Slang - The Shins
+1979 - The Smashing Pumpkins
+Hallelujah - Jeff Buckley
+Lost - Frank Ocean
+You Shook Me All Night Long - AC/DC
+Lisztomania - Phoenix
+Learn to Fly - Foo Fighters
+You've Got the Love - Florence + the Machine
+Bulls on Parade - Rage Against the Machine
+Dancing Queen - ABBA
+Toxic - Britney Spears
+Come on Eileen - Dexys Midnight Runners
+Shape of You - Ed Sheeran
+Bohemian Like You - The Dandy Warhols
+Ain't No Sunshine - Bill Withers
+Are You Gonna Be My Girl - Jet
+Starboy - The Weeknd
+Here Comes The Sun - Remastered 2009 - The Beatles
+Around the World - Daft Punk
+Numb - Linkin Park
+I Want You Back - The Jackson 5
+Alright - Kendrick Lamar
+Hey Ya! - OutKast
+Otherside - Red Hot Chili Peppers
+Every Breath You Take - The Police
+Sabotage - Beastie Boys
+Wonderwall - Remastered - Oasis
+Islands - The xx
+When I Come Around - Green Day
+Maps - Yeah Yeah Yeahs
+Frontier Psychiatrist - The Avalanches
+Mr. Jones - Counting Crows
+Clint Eastwood - Gorillaz
+Rolling in the Deep - Adele
+Lonely Boy - The Black Keys
+DARE - Gorillaz
+I Bet You Look Good on the Dancefloor - Arctic Monkeys
+Livin' on a Prayer - Bon Jovi
+One Dance - Drake
+Take Me to Church - Hozier
+Here Comes Your Man - Pixies
+About a Girl - Nirvana
+Last Christmas - Wham!
+You Get What You Give - New Radicals
+Viva la Vida - Coldplay
+Back in Black - AC/DC
+Dreams - The Cranberries
+More Than a Feeling - Boston
+Ocean Drive - Duke Dumont
+(Sittin' On) The Dock of the Bay - Otis Redding
+Highway to Hell - AC/DC
+Son of a Preacher Man - Dusty Springfield
+No Rain - Blind Melon

@@ -28,14 +28,14 @@ Karma Police - Radiohead
 No One Knows - Queens of the Stone Age
 Bitter Sweet Symphony - The Verve
 I Bet You Look Good on the Dancefloor - Arctic Monkeys
-Rockin' Around The Christmas Tree - Brenda Lee
 Do I Wanna Know? - Arctic Monkeys
+Rockin' Around The Christmas Tree - Brenda Lee
 All the Small Things - blink-182
 Tainted Love - Soft Cell
 Don't Stop Believin' - Journey
 Dog Days Are Over - Florence + the Machine
-Wonderwall - Oasis
 A-Punk - Vampire Weekend
+Wonderwall - Oasis
 Jingle Bell Rock - Bobby Helms
 Don't You (Forget About Me) - Simple Minds
 Can't Stop - Red Hot Chili Peppers
@@ -43,8 +43,158 @@ The Less I Know the Better - Tame Impala
 Step Into Christmas - Elton John
 Basket Case - Green Day
 Gimme Shelter - The Rolling Stones
-Sleigh Ride - The Ronettes
 Kids - MGMT
+Sleigh Ride - The Ronettes
 Fluorescent Adolescent - Arctic Monkeys
 Sweet Child o' Mine - Guns N' Roses
 There She Goes - The La's
+Californication - Red Hot Chili Peppers
+Hello - Adele
+I Want You Back - The Jackson 5
+Banquet - Bloc Party
+Brown Eyed Girl - Van Morrison
+The Middle - Jimmy Eat World
+Can't Feel My Face - The Weeknd
+Sultans of Swing - Dire Straits
+Yellow - Coldplay
+I Wanna Dance with Somebody (Who Loves Me) - Whitney Houston
+Sex on Fire - Kings of Leon
+Pumped Up Kicks - Foster the People
+Heartbeats - José González
+No Surprises - Radiohead
+Just Like Heaven - The Cure
+Merry Christmas Everyone - Shakin' Stevens
+All Along the Watchtower - Jimi Hendrix
+Lovely Day - Bill Withers
+My Number - Foals
+Killing in the Name - Rage Against the Machine
+In the End - Linkin Park
+Boys Don't Cry - The Cure
+Somebody Told Me - The Killers
+Driving Home for Christmas - Chris Rea
+(Sittin' On) The Dock of the Bay - Otis Redding
+You've Got the Love - Florence + the Machine
+Go Your Own Way - Fleetwood Mac
+Close to Me - The Cure
+Dancing in the Dark - Bruce Springsteen
+Dancing Queen - ABBA
+Fortunate Son - Creedence Clearwater Revival
+Merry Xmas Everybody - Slade
+Zombie - The Cranberries
+High and Dry - Radiohead
+What You Know - Two Door Cinema Club
+Paper Planes - M.I.A.
+Christmas (Baby Please Come Home) - Darlene Love
+Son of a Preacher Man - Dusty Springfield
+Buddy Holly - Weezer
+Golden Brown - The Stranglers
+Shut Up and Dance - Walk the Moon
+Sweet Disposition - The Temper Trap
+Chop Suey! - System of a Down
+Billie Jean - Michael Jackson
+Budapest - George Ezra
+Intro - The xx
+Dreaming of You - The Coral
+Sorry - Justin Bieber
+White Christmas - Bing Crosby
+Girls Just Want to Have Fun - Cyndi Lauper
+Everywhere - Fleetwood Mac
+Alright - Supergrass
+Sweet Home Alabama - Lynyrd Skynyrd
+Take Me to Church - Hozier
+Where Is My Mind? - Pixies
+Lithium - Nirvana
+Pompeii - Bastille
+Midnight City - M83
+Stuck in the Middle With You - Stealers Wheel
+Here Comes The Sun - Remastered 2009 - The Beatles
+Riptide - Vance Joy
+Summer of '69 - Bryan Adams
+Skinny Love - Bon Iver
+Back in Black - AC/DC
+Torn - Natalie Imbruglia
+Town Called Malice - The Jam
+Paranoid Android - Radiohead
+Blue Christmas - Elvis Presley
+The Pretender - Foo Fighters
+Tiny Dancer - Elton John
+I Wish It Could Be Christmas Everyday - Wizzard
+Lean On (feat. MØ & DJ Snake) - Major Lazer
+Fast Car - Tracy Chapman
+Don't Look Back in Anger - Oasis
+Golden Skans - Klaxons
+More Than a Feeling - Boston
+Highway to Hell - AC/DC
+Come on Eileen - Dexys Midnight Runners
+One More Time - Daft Punk
+Shape of You - Ed Sheeran
+Let It Snow! Let It Snow! Let It Snow! - Dean Martin
+Do They Know It's Christmas? - 1984 Version - Band Aid
+Common People - Pulp
+(Don't Fear) The Reaper - Blue Öyster Cult
+Reptilia - The Strokes
+All Star - Smash Mouth
+Teenage Dirtbag - Wheatus
+Feliz Navidad - José Feliciano
+Walk on the Wild Side - Lou Reed
+Livin' on a Prayer - Bon Jovi
+No Scrubs - TLC
+Eye of the Tiger - Survivor
+Ain't No Sunshine - Bill Withers
+Santa Tell Me - Ariana Grande
+Black Hole Sun - Soundgarden
+Heart-Shaped Box - Nirvana
+Enter Sandman - Metallica
+Signed, Sealed, Delivered (I'm Yours) - Stevie Wonder
+Learn to Fly - Foo Fighters
+Shake It Off - Taylor Swift
+Underneath the Tree - Kelly Clarkson
+Glory Box - Portishead
+Don't You Want Me - The Human League
+Mountain At My Gates - Foals
+Hate To Say I Told You So - The Hives
+Rolling in the Deep - Adele
+Scar Tissue - Red Hot Chili Peppers
+Let's Stay Together - Al Green
+Disco 2000 - Pulp
+What's My Age Again? - blink-182
+When the Sun Goes Down - Arctic Monkeys
+Best of You - Foo Fighters
+Dancing in the Moonlight - Toploader
+Loser - Beck
+Holly Jolly Christmas - Michael Bublé
+Bohemian Like You - The Dandy Warhols
+What Do You Mean? - Justin Bieber
+Superstition - Single Version - Stevie Wonder
+Paranoid - Black Sabbath
+Good Riddance (Time of Your Life) - Green Day
+R U Mine? - Arctic Monkeys
+Time to Pretend - MGMT
+Linger - The Cranberries
+Landslide - Fleetwood Mac
+Burn the Witch - Radiohead
+Numb - Linkin Park
+When You Were Young - The Killers
+I'm Still Standing - Elton John
+Fake Plastic Trees - Radiohead
+The Scientist - Coldplay
+Wake Me up Before You Go-Go - Wham!
+bad guy - Billie Eilish
+Crazy - Gnarls Barkley
+Cheap Thrills - Sia
+Dreams - 2004 Remaster - Fleetwood Mac
+She Moves in Her Own Way - The Kooks
+Blue Monday - New Order
+Back to Black - Amy Winehouse
+Supermassive Black Hole - Muse
+Respect - Aretha Franklin
+My Girl - The Temptations
+The Killing Moon - Echo & the Bunnymen
+Viva la Vida - Coldplay
+Down Under - Men at Work
+For What It's Worth - Buffalo Springfield
+Royals - Lorde
+Blinding Lights - The Weeknd
+Chelsea Dagger - The Fratellis
+Welcome to the Jungle - Guns N' Roses
+Here Comes Your Man - Pixies

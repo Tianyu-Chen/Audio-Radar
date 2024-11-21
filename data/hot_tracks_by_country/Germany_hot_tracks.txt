@@ -12,8 +12,8 @@ Under the Bridge - Red Hot Chili Peppers
 All I Want for Christmas Is You - Mariah Carey
 Numb - Linkin Park
 Sex on Fire - Kings of Leon
-All the Small Things - blink-182
 Creep - Radiohead
+All the Small Things - blink-182
 Sultans of Swing - Dire Straits
 Killing in the Name - Rage Against the Machine
 Fortunate Son - Creedence Clearwater Revival
@@ -29,8 +29,8 @@ Oft Gefragt - AnnenMayKantereit
 Tainted Love - Soft Cell
 Toxicity - System of a Down
 Feel Good Inc. - Gorillaz
-Enter Sandman - Metallica
 Can't Stop - Red Hot Chili Peppers
+Enter Sandman - Metallica
 Teardrop - Massive Attack
 The Pretender - Foo Fighters
 Intro - The xx
@@ -46,5 +46,155 @@ Stressed Out - Twenty One Pilots
 All Along the Watchtower - Jimi Hendrix
 Sweet Child o' Mine - Guns N' Roses
 Kryptonite - 3 Doors Down
+Friday I'm in Love - The Cure
 Bitter Sweet Symphony - The Verve
 Shape of You - Ed Sheeran
+Self Esteem - The Offspring
+Billie Jean - Michael Jackson
+Eye of the Tiger - Survivor
+Black Hole Sun - Soundgarden
+Last Christmas - Wham!
+Heartbeats - José González
+The Middle - Jimmy Eat World
+Kids - MGMT
+Lonely Boy - The Black Keys
+Enjoy the Silence - Depeche Mode
+Down Under - Men at Work
+Otherside - Red Hot Chili Peppers
+Feel It Still - Portugal. The Man
+Every Breath You Take - The Police
+Highway to Hell - AC/DC
+Bad Moon Rising - Creedence Clearwater Revival
+September - Earth, Wind & Fire
+Pocahontas - AnnenMayKantereit
+Ace of Spades - Motörhead
+bad guy - Billie Eilish
+Cheap Thrills - Sia
+Lean On (feat. MØ & DJ Snake) - Major Lazer
+Sugar (feat. Francesco Yates) - Robin Schulz
+Skinny Love - Bon Iver
+One Step Closer - Linkin Park
+Hurt - Johnny Cash
+Scar Tissue - Red Hot Chili Peppers
+Summer of '69 - Bryan Adams
+Feliz Navidad - José Feliciano
+Lithium - Nirvana
+Shut Up and Dance - Walk the Moon
+Love Will Tear Us Apart - Joy Division
+Blinding Lights - The Weeknd
+Riptide - Vance Joy
+Best of You - Foo Fighters
+It's Beginning to Look a Lot Like Christmas - Michael Bublé
+Can't Feel My Face - The Weeknd
+Yellow - Coldplay
+Are You Gonna Be My Girl - Jet
+What's My Age Again? - blink-182
+Crystalised - The xx
+Son of a Preacher Man - Dusty Springfield
+Every You Every Me - Placebo
+Should I Stay or Should I Go - Remastered - The Clash
+Midnight City - M83
+Sweet Home Alabama - Lynyrd Skynyrd
+Do I Wanna Know? - Arctic Monkeys
+The Less I Know the Better - Tame Impala
+Radioactive - Imagine Dragons
+Bohemian Rhapsody - Remastered 2011 - Queen
+The Scientist - Coldplay
+Karma Police - Radiohead
+Jingle Bell Rock - Bobby Helms
+Livin' on a Prayer - Bon Jovi
+Paradise City - Guns N' Roses
+Last Nite - The Strokes
+Sonne - Rammstein
+More Than a Feeling - Boston
+Breezeblocks - alt-J
+I'm Gonna Be (500 Miles) - The Proclaimers
+Everybody Wants to Rule the World - Tears for Fears
+Island in the Sun - Weezer
+The Sound of Silence - Disturbed
+Girls Just Want to Have Fun - Cyndi Lauper
+Rolling in the Deep - Adele
+Take Me to Church - Hozier
+Back in Black - AC/DC
+Viva la Vida - Coldplay
+For What It's Worth - Buffalo Springfield
+Somebody Told Me - The Killers
+Drive - Incubus
+Driving Home for Christmas - Chris Rea
+Learn to Fly - Foo Fighters
+Heart-Shaped Box - Nirvana
+Thunderstruck - AC/DC
+Clint Eastwood - Gorillaz
+Pumped Up Kicks - Foster the People
+Dancing in the Dark - Bruce Springsteen
+Faint - Linkin Park
+Running Up That Hill (A Deal With God) - Kate Bush
+Red Flag - Billy Talent
+Walk on the Wild Side - Lou Reed
+American Idiot - Green Day
+A Horse With No Name - America
+Teenage Dirtbag - Wheatus
+Two Princes - Spin Doctors
+Du hast - Rammstein
+Take a Look Around - Limp Bizkit
+It's the Most Wonderful Time of the Year - Andy Williams
+Savior - Rise Against
+Gangsta's Paradise - Coolio
+Schrei nach Liebe - Die Ärzte
+Faded - Alan Walker
+You've Got the Love - Florence + the Machine
+I'm Still Standing - Elton John
+Without Me - Eminem
+Welcome to the Jungle - Guns N' Roses
+Hold the Line - Toto
+Gimme Shelter - The Rolling Stones
+Ain't No Sunshine - Bill Withers
+You Shook Me All Night Long - AC/DC
+I Want You Back - The Jackson 5
+How You Remind Me - Nickelback
+Torn - Natalie Imbruglia
+Smooth Criminal - Alien Ant Farm
+Riders on the Storm - The Doors
+Smalltown Boy - Bronski Beat
+Butterfly - Crazy Town
+(Don't Fear) The Reaper - Blue Öyster Cult
+Fast Car - Tracy Chapman
+Crawling - Linkin Park
+Master of Puppets - Metallica
+Snow (Hey Oh) - Red Hot Chili Peppers
+Another One Bites The Dust - Remastered 2011 - Queen
+99 Luftballons - Nena
+White Rabbit - Jefferson Airplane
+Dancing Queen - ABBA
+Stolen Dance - Milky Chance
+Use Somebody - Kings of Leon
+Hate To Say I Told You So - The Hives
+Bring Me to Life - Evanescence
+I Want It That Way - Backstreet Boys
+Photograph - Ed Sheeran
+The Funeral - Band of Horses
+Uprising - Muse
+Lush Life - Zara Larsson
+Duality - Slipknot
+Just Like Heaven - The Cure
+About a Girl - Nirvana
+Supermassive Black Hole - Muse
+Royals - Lorde
+Save Tonight - Eagle-Eye Cherry
+Holocene - Bon Iver
+Dani California - Red Hot Chili Peppers
+7 Years - Lukas Graham
+You Give Love a Bad Name - Bon Jovi
+Break on Through (to the Other Side) - The Doors
+Someone Like You - Adele
+Ein Kompliment - Sportfreunde Stiller
+New Slang - The Shins
+Barfuß Am Klavier - AnnenMayKantereit
+All Star - Smash Mouth
+Rockin' Around The Christmas Tree - Brenda Lee
+Roxanne - The Police
+Dark Necessities - Red Hot Chili Peppers
+Walk of Life - Dire Straits
+Can't Hold Us (feat. Ray Dalton) - Macklemore & Ryan Lewis
+Song 2 - Blur
+Papercut - Linkin Park

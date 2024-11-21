@@ -33,11 +33,11 @@ Everlong - Foo Fighters
 Chandelier - Sia
 Starboy - The Weeknd
 Like a Stone - Audioslave
-Boys Don't Cry - The Cure
 Everybody Wants to Rule the World - Tears for Fears
+Boys Don't Cry - The Cure
+Linger - The Cranberries
 Lonely Boy - The Black Keys
 Work - Rihanna
-Linger - The Cranberries
 Can't Stop - Red Hot Chili Peppers
 Blinding Lights - The Weeknd
 Yellow - Coldplay
@@ -45,6 +45,156 @@ Bad Romance - Lady Gaga
 Otherside - Red Hot Chili Peppers
 The Hills - The Weeknd
 New Rules - Dua Lipa
-The Scientist - Coldplay
 Bring Me to Life - Evanescence
+The Scientist - Coldplay
 Poker Face - Lady Gaga
+doN'T StArT nOw - Dua Lipa
+Kids - MGMT
+Wonderwall - Remastered - Oasis
+Basket Case - Green Day
+All the Small Things - blink-182
+Hotline Bling - Drake
+Bitch Better Have My Money - Rihanna
+Every Breath You Take - The Police
+Equalize - Pitty
+I MISS YOU - blink-182
+Toxicity - System of a Down
+Friday I'm in Love - The Cure
+Complicated - Avril Lavigne
+Cheap Thrills - Sia
+Sultans of Swing - Dire Straits
+Needed Me - Rihanna
+Hello - Adele
+No One Knows - Queens of the Stone Age
+You Know I'm No Good - Amy Winehouse
+Best of You - Foo Fighters
+Don't Speak - No Doubt
+bad guy - Billie Eilish
+Tempo Perdido - Legião Urbana
+Shape of You - Ed Sheeran
+You Only Live Once - The Strokes
+Stressed Out - Twenty One Pilots
+Sweet Child o' Mine - Guns N' Roses
+Misery Business - Paramore
+Umbrella - Rihanna
+Lean On (feat. MØ & DJ Snake) - Major Lazer
+Zombie - The Cranberries
+...Baby One More Time - Britney Spears
+Bohemian Rhapsody - Remastered 2011 - Queen
+Alive - Pearl Jam
+I Wanna Be Yours - Arctic Monkeys
+What You Know - Two Door Cinema Club
+Sweater Weather - The Neighbourhood
+Billie Jean - Michael Jackson
+I Bet You Look Good on the Dancefloor - Arctic Monkeys
+Even Flow - Pearl Jam
+Should I Stay or Should I Go - Remastered - The Clash
+Summertime Sadness - Lana Del Rey
+Love On The Brain - Rihanna
+Wish You Were Here - Pink Floyd
+Na Sua Estante - Pitty
+Someday - The Strokes
+Black - Pearl Jam
+Girls Just Want to Have Fun - Cyndi Lauper
+Livin' on a Prayer - Bon Jovi
+The Kids Aren't Alright - The Offspring
+Rehab - Amy Winehouse
+Rolling in the Deep - Adele
+When You Were Young - The Killers
+Back in Black - AC/DC
+Cool for the Summer - Demi Lovato
+Faint - Linkin Park
+Intro - The xx
+Clint Eastwood - Gorillaz
+Habits (Stay High) - Tove Lo
+Oops!...I Did It Again - Britney Spears
+Take Me to Church - Hozier
+Learn to Fly - Foo Fighters
+Tears Dry on Their Own - Amy Winehouse
+What's Up? - 4 Non Blondes
+Enter Sandman - Metallica
+American Idiot - Green Day
+Just Dance - Lady Gaga
+Enjoy the Silence - Depeche Mode
+What Do You Mean? - Justin Bieber
+Paranoid - Black Sabbath
+I Write Sins Not Tragedies - Panic! at the Disco
+Como Nossos Pais - Elis Regina
+Love Will Tear Us Apart - Joy Division
+Somewhere Only We Know - Keane
+Dani California - Red Hot Chili Peppers
+By the Way - Red Hot Chili Peppers
+Watermelon Sugar - Harry Styles
+Killing in the Name - Rage Against the Machine
+Use Somebody - Kings of Leon
+Karma Police - Radiohead
+Sangue Latino - Secos & Molhados
+Highway to Hell - AC/DC
+Arabella - Arctic Monkeys
+The Pretender - Foo Fighters
+Another One Bites The Dust - Remastered 2011 - Queen
+Supermassive Black Hole - Muse
+One Dance - Drake
+Promiscuous - Nelly Furtado
+Sugar - Maroon 5
+Black Hole Sun - Soundgarden
+Hollaback Girl - Gwen Stefani
+Dancing Queen - ABBA
+Born to Die - Lana Del Rey
+Torn - Natalie Imbruglia
+Radioactive - Imagine Dragons
+K.O. - Pabllo Vittar
+505 - Arctic Monkeys
+Diamonds - Rihanna
+Heart-Shaped Box - Nirvana
+Don't Stop Believin' - Journey
+Bang - Anitta
+Bitter Sweet Symphony - The Verve
+Dark Horse - Katy Perry
+Dream On - Aerosmith
+Africa - Toto
+Love Yourself - Justin Bieber
+Lithium - Nirvana
+Electric Feel - MGMT
+Fake Plastic Trees - Radiohead
+Counting Stars - OneRepublic
+Just Like Heaven - The Cure
+The Reason - Hoobastank
+Snow (Hey Oh) - Red Hot Chili Peppers
+Young Folks - Peter Bjorn and John
+Nothing Else Matters - Metallica
+Exagerado - Cazuza
+Welcome to the Jungle - Guns N' Roses
+This Love - Maroon 5
+You Give Love a Bad Name - Bon Jovi
+Video Games - Lana Del Rey
+I Feel It Coming - The Weeknd
+Somebody That I Used To Know - Gotye
+Send My Love (To Your New Lover) - Adele
+Under Pressure - Remastered 2011 - Queen
+Feels Like We Only Go Backwards - Tame Impala
+Hung Up - Madonna
+Cake By The Ocean - DNCE
+Snap Out of It - Arctic Monkeys
+B.Y.O.B. - System of a Down
+Here Comes The Sun - Remastered 2009 - The Beatles
+Halo - Beyoncé
+Riptide - Vance Joy
+Born This Way - Lady Gaga
+Green Light - Lorde
+Mistério do Planeta - Novos Baianos
+Lisztomania - Phoenix
+Sua cara (Feat. Anitta & Pabllo Vittar) - Major Lazer
+Breezeblocks - alt-J
+Believer - Imagine Dragons
+Viva la Vida - Coldplay
+I Kissed a Girl - Katy Perry
+Anunciação - Alceu Valença
+Side To Side - Ariana Grande
+Bang Bang - Jessie J
+Into You - Ariana Grande
+About a Girl - Nirvana
+Can't Get You Out of My Head - Kylie Minogue
+High and Dry - Radiohead
+Preciso Me Encontrar - Cartola
+I Want It That Way - Backstreet Boys

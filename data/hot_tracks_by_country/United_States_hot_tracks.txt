@@ -8,11 +8,11 @@ Everlong - Foo Fighters
 The Middle - Jimmy Eat World
 Seven Nation Army - The White Stripes
 Creep - Radiohead
-Africa - Toto
 Feel Good Inc. - Gorillaz
+Africa - Toto
 Can't Feel My Face - The Weeknd
-Take on Me - a-ha
 Midnight City - M83
+Take on Me - a-ha
 Come as You Are - Nirvana
 Karma Police - Radiohead
 Say It Ain't So - Weezer
@@ -40,11 +40,161 @@ Island in the Sun - Weezer
 Just Like Heaven - The Cure
 Kids - MGMT
 Last Nite - The Strokes
-Don't Stop Believin' - Journey
 Alright - Kendrick Lamar
+Don't Stop Believin' - Journey
 The Hills - The Weeknd
-Space Song - Beach House
 Pumped Up Kicks - Foster the People
+Space Song - Beach House
 Hello - Adele
 A-Punk - Vampire Weekend
+Zombie - The Cranberries
 1901 - Phoenix
+Feel It All Around - Washed Out
+Royals - Lorde
+Paper Planes - M.I.A.
+Gimme Shelter - The Rolling Stones
+DNA. - Kendrick Lamar
+Skinny Love - Bon Iver
+What's My Age Again? - blink-182
+(Don't Fear) The Reaper - Blue Öyster Cult
+Where Is My Mind? - Pixies
+King Kunta - Kendrick Lamar
+Friday I'm in Love - The Cure
+Someday - The Strokes
+New Slang - The Shins
+Chop Suey! - System of a Down
+Walking on a Dream - Empire of the Sun
+White Winter Hymnal - Fleet Foxes
+Bad Moon Rising - Creedence Clearwater Revival
+Let It Happen - Tame Impala
+Reptilia - The Strokes
+High and Dry - Radiohead
+For What It's Worth - Buffalo Springfield
+Brown Eyed Girl - Van Morrison
+Feel It Still - Portugal. The Man
+Drive - Incubus
+Losing My Religion - R.E.M.
+Jingle Bell Rock - Bobby Helms
+bad guy - Billie Eilish
+Rockin' Around The Christmas Tree - Brenda Lee
+Time to Pretend - MGMT
+Mr. Blue Sky - Electric Light Orchestra
+Linger - The Cranberries
+Dog Days Are Over - Florence + the Machine
+Heart-Shaped Box - Nirvana
+Do I Wanna Know? - Arctic Monkeys
+Killing in the Name - Rage Against the Machine
+Blinding Lights - The Weeknd
+No Rain - Blind Melon
+In the Aeroplane Over the Sea - Neutral Milk Hotel
+When I Come Around - Green Day
+Dreams - 2004 Remaster - Fleetwood Mac
+Billie Jean - Michael Jackson
+Feels Like We Only Go Backwards - Tame Impala
+Somebody Told Me - The Killers
+What I Got - Sublime
+More Than a Feeling - Boston
+I Will Follow You Into The Dark - Death Cab for Cutie
+Pink + White - Frank Ocean
+My Own Worst Enemy - Lit
+It's the Most Wonderful Time of the Year - Andy Williams
+In the End - Linkin Park
+When You Were Young - The Killers
+(Sittin' On) The Dock of the Bay - Otis Redding
+No Surprises - Radiohead
+Tainted Love - Soft Cell
+Sugar, We're Goin Down - Fall Out Boy
+Mr. Jones - Counting Crows
+Paranoid Android - Radiohead
+Holocene - Bon Iver
+No Scrubs - TLC
+Lithium - Nirvana
+Don't You (Forget About Me) - Simple Minds
+Ms. Jackson - OutKast
+I Want You Back - The Jackson 5
+Everything in Its Right Place - Radiohead
+One More Time - Daft Punk
+All Along the Watchtower - Jimi Hendrix
+Riptide - Vance Joy
+Wish You Were Here - Pink Floyd
+Californication - Red Hot Chili Peppers
+Rhiannon - Fleetwood Mac
+The Distance - Cake
+Teardrop - Massive Attack
+I Wanna Dance with Somebody (Who Loves Me) - Whitney Houston
+No One Knows - Queens of the Stone Age
+Yellow - Coldplay
+Ain't No Sunshine - Bill Withers
+Sorry - Justin Bieber
+Scar Tissue - Red Hot Chili Peppers
+Misery Business - Paramore
+My Girl - The Temptations
+Thinkin Bout You - Frank Ocean
+Toxic - Britney Spears
+Oblivion - Grimes
+Bulls on Parade - Rage Against the Machine
+Starboy - The Weeknd
+You Can Call Me Al - Paul Simon
+Just a Girl - No Doubt
+Bitter Sweet Symphony - The Verve
+All Star - Smash Mouth
+Take Me to Church - Hozier
+Burn the Witch - Radiohead
+Lisztomania - Phoenix
+Clint Eastwood - Gorillaz
+One Dance - Drake
+Tongue Tied - Grouplove
+Stressed Out - Twenty One Pilots
+Mykonos - Fleet Foxes
+Tiny Dancer - Elton John
+Breezeblocks - alt-J
+Sweet Child o' Mine - Guns N' Roses
+Thriller - Michael Jackson
+Just What I Needed - The Cars
+Dreams - The Cranberries
+What You Know - Two Door Cinema Club
+Don't Speak - No Doubt
+Avril 14th - Aphex Twin
+Shut Up and Dance - Walk the Moon
+I MISS YOU - blink-182
+Here Comes Your Man - Pixies
+Dance Yrself Clean - LCD Soundsystem
+Sabotage - Beastie Boys
+Let's Stay Together - Al Green
+Baba O'Riley - The Who
+Sleepyhead - Passion Pit
+Myth - Beach House
+Stuck in the Middle With You - Stealers Wheel
+Lovely Day - Bill Withers
+Stronger - Kanye West
+Fell in Love With a Girl - The White Stripes
+Free Fallin' - Tom Petty
+All These Things That I've Done - The Killers
+Power - Kanye West
+First Day of My Life - Bright Eyes
+I Write Sins Not Tragedies - Panic! at the Disco
+Dancing Queen - ABBA
+Gooey - Glass Animals
+Lazy Eye - Silversun Pickups
+The Mother We Share - CHVRCHES
+Come on Eileen - Dexys Midnight Runners
+The Christmas Song (Merry Christmas To You) - Nat King Cole
+Genesis - Grimes
+Fake Plastic Trees - Radiohead
+Can I Kick It? - A Tribe Called Quest
+Blue Christmas - Elvis Presley
+Even Flow - Pearl Jam
+Every Breath You Take - The Police
+Fast Car - Tracy Chapman
+Young Folks - Peter Bjorn and John
+Cheap Thrills - Sia
+About a Girl - Nirvana
+Shake It Off - Taylor Swift
+Home - Edward Sharpe & The Magnetic Zeros
+Closing Time - Semisonic
+Electric Love - BØRNS
+Sweater Weather - The Neighbourhood
+Howlin' for You - The Black Keys
+Numb - Linkin Park
+Wake Up - Arcade Fire
+American Girl - Tom Petty and The Heartbreakers
