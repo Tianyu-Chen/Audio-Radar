@@ -1,0 +1,14 @@
+{
+  "name": "audio-radar-gmm",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GMM clustering analysis for global music features",
+  "scripts": {
+    "test": "node tests/run-tests.js"
+  },
+  "dependencies": {
+    "recharts": "^2.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
