@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Music Recommendation System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnjs.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Include D3.js library -->
     <script type="text/javascript" src="./lib/d3.v5.min.js"></script>
     <script type="text/javascript" src="./lib/d3-dsv.min.js"></script>
@@ -12,6 +14,19 @@
     <script type="text/javascript" src="./lib/d3-legend.min.js"></script>
     <style>
         /* CSS styles */
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+        }
+        .feature-card {
+            height: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .nav-gradient {
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
+        }
         /* Map styles */
         #map {
             width: 100%;
@@ -58,16 +73,17 @@
 
         table {
             width: 100%; /* Full width to fill the space */
-            border-collapse: collapse;
             margin: 20px 0; /* Margin for spacing around the table */
             background-color: white; /* Ensures the background is white */
             box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Adds a light shadow */
+            border-collapse: collapse;
+            border: none;
         }
 
         th, td {
-            border: 1px solid #ddd; /* Lighter border color */
             padding: 10px 15px; /* Better padding for content */
             text-align: left; /* Aligns text to the left */
+            border: 1px solid #ddd;
         }
 
         #selections {
@@ -85,10 +101,6 @@
             width: 300px;
             vertical-align: middle;
         }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
         /* Country selection styles */
         #countrySelect {
             margin-bottom: 20px;
@@ -96,11 +108,38 @@
     </style>
 </head>
 <body>
-    <header> 
-        <h1>Music Recommendation</h1>
-    </header>
-    <!-- Map container -->
-    <div id="map"></div>
+    <nav class="nav-gradient text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-semibold tracking-tight">
+                    Global Music Explorer
+                </div>
+                <div class="space-x-8">
+                    <a href="histogram_new.html" class="hover:text-blue-200 text-lg font-medium transition-colors duration-200">Audio Features</a>
+                    <a href="recommend_new.html" class="hover:text-blue-200 text-lg font-medium transition-colors duration-200">Recommendations</a>
+                    <a href="top_songs.html" class="hover:text-blue-200 text-lg font-medium transition-colors duration-200">Top Songs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 py-12">
+        <div class="text-center mb-8">
+            <span class="inline-block bg-purple-50 text-purple-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">Music Recommendations</span>
+            <h1 class="text-5xl font-bold mb-6 tracking-tight gradient-text">Get Personalized Music Recommendations</h1>
+            <p class="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">Based on your preferences, explore personalized recommendations from different genres and regions around the world.</p>
+        </div>
+
+        <!-- Map container -->
+        <div id="map"></div>
+        
+        <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-md p-6 card-hover border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-900 tracking-tight mb-6">About This Recommendation System</h2>
+            <p class="text-gray-600 leading-relaxed mb-8 text-lg">
+                This system uses GMM algorithm to recommend music based on your preferences on audio features and regions.
+            </p>
+        </div>
+    </main>
 
     <div id="section"> 
         <div id="selections"> 
@@ -115,8 +154,8 @@
         <table id="recommendations">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Analysis URL</th>
+                    <th>Song Name</th>
+                    <th>Spotify Link</th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -151,7 +190,7 @@
 
         svg.call(tooltip);
 
-        const countryNames = ['Australia', 'Brazil', 'Canada', 'France', 'Germany', 'India', 'United States'];
+        const countryNames = ['Australia', 'Argentina', 'Belgium', 'Brazil', 'Canada', 'China', 'France', 'Germany', 'India', 'Denmark', 'USA', 'Egypt', 'Finland', 'France', 'Germany', 'Greece', 'India', 'Indonesia', 'Ireland', 'Italy', 'Japan', 'Korea', 'Malaysia', 'Mexico', 'Netherlands', 'New_Zealand', 'Norway', 'Malaysia', 'Mexico', 'Netherlands', 'New Zealand', 'Spain', 'Turkey', 'Thailand', 'South_Africa', 'Saudi_Arabia'];
 
         const audioFeaturesData = {};
 

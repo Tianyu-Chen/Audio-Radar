@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Audio Features Histograms by Country</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnjs.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Include D3.js library -->
     <script type="text/javascript" src="./lib/d3.v5.min.js"></script>
     <script type="text/javascript" src="./lib/d3-dsv.min.js"></script>
@@ -10,6 +12,7 @@
     <script type="text/javascript" src="./lib/d3-tip.min.js"></script>
     <script type="text/javascript" src="./lib/topojson.v2.min.js"></script>
     <script type="text/javascript" src="./lib/d3-legend.min.js"></script>
+    
     <style>
         * {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -18,24 +21,14 @@
         }
 
         body {
-            background-color: #f8f8f9;
-            color: #333;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
             margin: 0;
         }
 
-        header {
-            background: linear-gradient(145deg, #ececec, #f8f8f9);
-            text-align: center;
-            padding: 20px;
-            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        .nav-gradient {
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
         }
-
-        header h1 {
-            font-size: 2em;
-            color: #333;
-            margin: 0;
-        }
-
         /* Map styles */
         #map {
             width: 100%;
@@ -116,31 +109,68 @@
     </style>
 </head>
 <body>
-    <header> 
-        <h1>Audio Features Histograms by Country</h1>
-    </header>
-    <!-- Map container -->
-    <div id="map"></div>
-    <div id="feature-selection-container">
-        <label for="feature-select">Select Audio Feature:</label>
-        <select id="feature-select">
-            <option value="danceability">Danceability</option>
-            <option value="energy">Energy</option>
-            <option value="key">Key</option>
-            <option value="loudness">Loudness</option>
-            <option value="mode">Mode</option>
-            <option value="speechiness">Speechiness</option>
-            <option value="acousticness">Acousticness</option>
-            <option value="instrumentalness">Instrumentalness</option>
-            <option value="liveness">Liveness</option>
-            <option value="valence">Valence</option>
-            <option value="tempo">Tempo</option>
-        </select>
-    </div>
-    <!-- Histograms container -->
-    <div id="histograms-group">
-    </div>
+    <nav class="nav-gradient text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-semibold tracking-tight">
+                    Global Music Explorer
+                </div>
+                <div class="space-x-8">
+                    <a href="index.html" class="hover:text-blue-200 text-lg font-medium transition-colors duration-200">Home</a>
+                    <a href="recommend_new.html" class="hover:text-blue-200 text-lg font-medium transition-colors duration-200">Recommendations</a>
+                    <a href="top_songs.html" class="hover:text-blue-200 text-lg font-medium transition-colors duration-200">Top Songs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 py-12">
+        <div class="text-center mb-8">
+            <span class="inline-block bg-blue-50 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">Music Features Analysis</span>
+            <h1 class="text-5xl font-bold mb-6 tracking-tight gradient-text">Explore Audio Features</h1>
+            <p class="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">Dive into the world of audio features like danceability, energy, and more with interactive visualizations across countries.</p>
+        </div>
+
+        <!-- Map container -->
+        <div id="map"></div>
+
+        <div class="bg-gradient-to-br from-gray-50 to-white rounded-xl shadow-md p-6 card-hover border border-gray-200">
+            <h2 class="text-3xl font-bold text-gray-900 tracking-tight mb-6">About This Analysis</h2>
+            <p class="text-gray-600 leading-relaxed mb-8 text-lg">
+                This section visualizes various audio features (e.g., danceability, energy) from songs across different countries. Explore how these features vary among different countries.
+            </p>
+        </div>
+
+        <div id="feature-selection-container">
+            <label for="feature-select">Select Audio Feature:</label>
+            <select id="feature-select">
+                <option value="danceability">Danceability</option>
+                <option value="energy">Energy</option>
+                <option value="key">Key</option>
+                <option value="loudness">Loudness</option>
+                <option value="mode">Mode</option>
+                <option value="speechiness">Speechiness</option>
+                <option value="acousticness">Acousticness</option>
+                <option value="instrumentalness">Instrumentalness</option>
+                <option value="liveness">Liveness</option>
+                <option value="valence">Valence</option>
+                <option value="tempo">Tempo</option>
+            </select>
+        </div>
+        <!-- Histograms container -->
+        <div id="histograms-group">
+        </div>
+
+    </main>
+    
+    
     <script>
+        // mapping from API countries's name to world_countries.json
+        const countryNameMapping = {
+            "USA": "United States",
+            // Add more mappings as necessary
+        };
+
         // JavaScript code
         const width = 800;
         const height = 400;
@@ -168,7 +198,8 @@
         svg.call(tooltip);
 
         const audioFeaturesData = {};
-        const countryNames = ['Australia', 'Brazil', 'Canada', 'France', 'Germany', 'India', 'United States'];
+        const countryNames = ['Australia', 'Argentina', 'Belgium', 'Brazil', 'Canada', 'China', 'France', 'Germany', 'India', 'Denmark', 'USA', 'Egypt', 'Finland', 'France', 'Germany', 'Greece', 'India', 'Indonesia', 'Ireland', 'Italy', 'Japan', 'Korea', 'Malaysia', 'Mexico', 'Netherlands', 'New_Zealand', 'Norway', 'Malaysia', 'Mexico', 'Netherlands', 'New Zealand', 'Spain', 'Turkey', 'Thailand', 'South_Africa', 'Saudi_Arabia'];
+
         const maxSelectedCountries = 6;
         let selectedCountries = [];
 
