@@ -66,7 +66,7 @@ def get_audio_features(track_id, track_name):
 
 if __name__ == '__main__':
     # Read the tracks from the provided file
-    country_name = 'Argentina'
+    country_name = 'China'
     filename = f'data/hot_tracks_by_country/{country_name.replace(" ", "_")}_hot_tracks.txt'  # Format the filename
     tracks = read_tracks_from_file(filename)
     

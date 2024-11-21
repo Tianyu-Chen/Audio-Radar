@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Top Tracks by Country</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnjs.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Include D3.js library -->
     <script type="text/javascript" src="./lib/d3.v5.min.js"></script>
     <script type="text/javascript" src="./lib/d3-dsv.min.js"></script>
@@ -11,13 +13,18 @@
     <script type="text/javascript" src="./lib/topojson.v2.min.js"></script>
     <script type="text/javascript" src="./lib/d3-legend.min.js"></script>
     <style>
-        /* CSS styles */
+        /* Custom CSS */
         /* Map styles */
         #map {
-            width: 960px;
-            height: 600px;
-            display: inline-block;
-            vertical-align: top;
+            width: 100%;
+            max-width: 800px;
+            height: 400px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .nav-gradient {
+            background: linear-gradient(135deg, #1e3a8a, #2563eb);
         }
         /* Tooltip styles */
         .d3-tip {
@@ -30,54 +37,88 @@
         }
         /* Table styles */
         #track-table {
-            width: 600px;
+            width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
-            display: inline-block;
-            vertical-align: top;
-            margin-left: 20px;
         }
         #track-table th, #track-table td {
             border: 1px solid #ddd;
             padding: 8px;
+            text-align: left;
         }
         #pagination-controls {
             margin-top: 10px;
         }
         #pagination-controls button {
             margin: 0 5px;
+            background-color: #007aff;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: background-color 0.2s;
+        }
+        #pagination-controls button:hover {
+            background-color: #005bb5;
+        }
+        /* Container for map and table */
+        #track-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px;
         }
     </style>
 </head>
-<body>
-    <h1>Top Tracks by Country</h1>
-    <!-- Map container -->
-    <div id="map"></div>
-    <!-- Track table -->
-    <div id="track-info">
-        <h2 id="country-name"></h2>
-        <table id="track-table">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Artist</th>
-                    <th>Listeners</th>
-                    <th>URL</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-        <!-- Pagination controls -->
-        <div id="pagination-controls">
-            <button id="prev-button">Previous</button>
-            <span id="page-info"></span>
-            <button id="next-button">Next</button>
-        </div>
-    </div>
+<body class="bg-gray-50 font-sans text-gray-800">
+        <nav class="bg-gradient-to-r from-blue-600 to-blue-700 text-white shadow-lg">
+            <div class="container mx-auto px-6 py-4">
+                <div class="flex items-center justify-between">
+                    <div class="text-2xl font-semibold tracking-tight">Global Music Explorer</div>
+                    <div class="space-x-8">
+                        <a href="index.html" class="hover:text-blue-200 text-lg font-medium transition-colors duration-200">Home</a>
+                        <a href="histogram_new.html" class="hover:text-blue-200 text-lg font-medium transition-colors duration-200">Audio Features</a>
+                        <a href="recommend_new.html" class="hover:text-blue-200 text-lg font-medium transition-colors duration-200">Recommendations</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="container mx-auto px-6 py-12">
+            <div class="text-center mb-8">
+                <span class="inline-block bg-blue-50 text-red-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">Top Tracks Display</span>
+                <h1 class="text-5xl font-bold mb-6 tracking-tight gradient-text">Top Tracks by Country</h1>
+                <p class="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">Explore the top tracks by country and view detailed information about each track.</p>
+            </div>
+            <!-- Map container -->
+            <div id="map"></div>
+            <!-- Track table -->
+            <div id="track-info">
+                <h2 id="country-name"></h2>
+                <table id="track-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Artist</th>
+                            <th>Listeners</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <!-- Pagination controls -->
+                <div id="pagination-controls">
+                    <button id="prev-button">Previous</button>
+                    <span id="page-info"></span>
+                    <button id="next-button">Next</button>
+                </div>
+            </div>
+        </main>
     <script>
         // JavaScript code
-        const width = 960;
-        const height = 600;
+        const width = 800;
+        const height = 400;
 
         const svg = d3.select("#map")
             .append("svg")
@@ -85,7 +126,7 @@
             .attr("height", height);
 
         const projection = d3.geoNaturalEarth1()
-            .scale(160)
+            .scale(140)
             .translate([width / 2, height / 2]);
 
         const path = d3.geoPath()
