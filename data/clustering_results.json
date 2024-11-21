@@ -1,0 +1,1013 @@
+{
+  "timestamp": "2024-11-21T01:54:47.050Z",
+  "results": {
+    "gmm": [
+      {
+        "k": 3,
+        "metrics": {
+          "silhouetteScore": -0.0528705067795698,
+          "dbiScore": 428.0124391036772,
+          "bicScore": 8997.042579553667,
+          "aicScore": 8357.407142922588,
+          "logLikelihood": -4085.7035714612934
+        },
+        "analysis": {
+          "overall": {
+            "totalSongs": 7171,
+            "uniqueCountries": 39,
+            "clusterCount": 7171
+          },
+          "clusters": {
+            "0": {
+              "size": 2044,
+              "percentage": "28.50%",
+              "countryDistribution": {
+                "Argentina": 62,
+                "Australia": 60,
+                "Belgium": 50,
+                "Brazil": 65,
+                "Canada": 51,
+                "China": 13,
+                "Denmark": 28,
+                "Egypt": 45,
+                "Finland": 87,
+                "France": 52,
+                "Germany": 70,
+                "Greece": 69,
+                "India": 12,
+                "Indonesia": 40,
+                "Ireland": 58,
+                "Israel": 59,
+                "Italy": 68,
+                "Japan": 51,
+                "Korea,_Republic_of": 48,
+                "Malaysia": 44,
+                "Mexico": 77,
+                "Netherlands": 44,
+                "New_Zealand": 61,
+                "Norway": 50,
+                "Philippines": 35,
+                "Poland": 57,
+                "Portugal": 72,
+                "Russian_Federation": 83,
+                "Saudi_Arabia": 34,
+                "Singapore": 37,
+                "South_Africa": 74,
+                "Spain": 78,
+                "Sweden": 52,
+                "Switzerland": 42,
+                "Thailand": 41,
+                "Turkey": 46,
+                "United_Arab_Emirates": 51,
+                "United_Kingdom": 58,
+                "United_States": 20
+              },
+              "features": {
+                "danceability": 0.5132783757338544,
+                "energy": 0.8138840508806272,
+                "tempo": 128.68379843444154,
+                "valence": 0.5078501956947161,
+                "acousticness": 0.003084269662426611
+              },
+              "topCountries": [
+                {
+                  "country": "Finland",
+                  "count": 87,
+                  "percentage": "4.26%"
+                },
+                {
+                  "country": "Russian_Federation",
+                  "count": 83,
+                  "percentage": "4.06%"
+                },
+                {
+                  "country": "Spain",
+                  "count": 78,
+                  "percentage": "3.82%"
+                },
+                {
+                  "country": "Mexico",
+                  "count": 77,
+                  "percentage": "3.77%"
+                },
+                {
+                  "country": "South_Africa",
+                  "count": 74,
+                  "percentage": "3.62%"
+                }
+              ]
+            },
+            "1": {
+              "size": 2433,
+              "percentage": "33.93%",
+              "countryDistribution": {
+                "Argentina": 44,
+                "Australia": 54,
+                "Belgium": 81,
+                "Brazil": 42,
+                "Canada": 68,
+                "China": 24,
+                "Denmark": 107,
+                "Egypt": 78,
+                "Finland": 28,
+                "France": 75,
+                "Germany": 54,
+                "Greece": 64,
+                "India": 17,
+                "Indonesia": 81,
+                "Ireland": 75,
+                "Israel": 76,
+                "Italy": 64,
+                "Japan": 66,
+                "Korea,_Republic_of": 65,
+                "Malaysia": 70,
+                "Mexico": 45,
+                "Netherlands": 81,
+                "New_Zealand": 58,
+                "Norway": 81,
+                "Philippines": 70,
+                "Poland": 60,
+                "Portugal": 50,
+                "Russian_Federation": 48,
+                "Saudi_Arabia": 76,
+                "Singapore": 75,
+                "South_Africa": 51,
+                "Spain": 49,
+                "Sweden": 83,
+                "Switzerland": 87,
+                "Thailand": 71,
+                "Turkey": 75,
+                "United_Arab_Emirates": 70,
+                "United_Kingdom": 61,
+                "United_States": 9
+              },
+              "features": {
+                "danceability": 0.584706124126594,
+                "energy": 0.5325210439786272,
+                "tempo": 114.40414344430783,
+                "valence": 0.4998325935059595,
+                "acousticness": 0.47896136457048916
+              },
+              "topCountries": [
+                {
+                  "country": "Denmark",
+                  "count": 107,
+                  "percentage": "4.40%"
+                },
+                {
+                  "country": "Switzerland",
+                  "count": 87,
+                  "percentage": "3.58%"
+                },
+                {
+                  "country": "Sweden",
+                  "count": 83,
+                  "percentage": "3.41%"
+                },
+                {
+                  "country": "Belgium",
+                  "count": 81,
+                  "percentage": "3.33%"
+                },
+                {
+                  "country": "Indonesia",
+                  "count": 81,
+                  "percentage": "3.33%"
+                }
+              ]
+            },
+            "2": {
+              "size": 2694,
+              "percentage": "37.57%",
+              "countryDistribution": {
+                "Argentina": 80,
+                "Australia": 82,
+                "Belgium": 65,
+                "Brazil": 85,
+                "Canada": 77,
+                "China": 29,
+                "Denmark": 56,
+                "Egypt": 77,
+                "Finland": 73,
+                "France": 68,
+                "Germany": 66,
+                "Greece": 62,
+                "India": 20,
+                "Indonesia": 77,
+                "Ireland": 61,
+                "Israel": 60,
+                "Italy": 58,
+                "Japan": 78,
+                "Korea,_Republic_of": 87,
+                "Malaysia": 82,
+                "Mexico": 72,
+                "Netherlands": 65,
+                "New_Zealand": 78,
+                "Norway": 64,
+                "Philippines": 90,
+                "Poland": 78,
+                "Portugal": 72,
+                "Russian_Federation": 69,
+                "Saudi_Arabia": 89,
+                "Singapore": 84,
+                "South_Africa": 75,
+                "Spain": 67,
+                "Sweden": 58,
+                "Switzerland": 67,
+                "Thailand": 85,
+                "Turkey": 69,
+                "United_Arab_Emirates": 76,
+                "United_Kingdom": 72,
+                "United_States": 21
+              },
+              "features": {
+                "danceability": 0.5706447661469934,
+                "energy": 0.6908080178173726,
+                "tempo": 121.33691648106888,
+                "valence": 0.5289641425389741,
+                "acousticness": 0.06393133333333356
+              },
+              "topCountries": [
+                {
+                  "country": "Philippines",
+                  "count": 90,
+                  "percentage": "3.34%"
+                },
+                {
+                  "country": "Saudi_Arabia",
+                  "count": 89,
+                  "percentage": "3.30%"
+                },
+                {
+                  "country": "Korea,_Republic_of",
+                  "count": 87,
+                  "percentage": "3.23%"
+                },
+                {
+                  "country": "Brazil",
+                  "count": 85,
+                  "percentage": "3.16%"
+                },
+                {
+                  "country": "Thailand",
+                  "count": 85,
+                  "percentage": "3.16%"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "k": 4,
+        "metrics": {
+          "silhouetteScore": -0.09926998425111896,
+          "dbiScore": 481.5860425373087,
+          "bicScore": 8255.4913026727,
+          "aicScore": 7402.644053831262,
+          "logLikelihood": -3577.322026915631
+        },
+        "analysis": {
+          "overall": {
+            "totalSongs": 7171,
+            "uniqueCountries": 39,
+            "clusterCount": 7171
+          },
+          "clusters": {
+            "0": {
+              "size": 1277,
+              "percentage": "17.81%",
+              "countryDistribution": {
+                "Argentina": 40,
+                "Australia": 39,
+                "Belgium": 30,
+                "Brazil": 40,
+                "Canada": 38,
+                "China": 15,
+                "Denmark": 26,
+                "Egypt": 36,
+                "Finland": 24,
+                "France": 34,
+                "Germany": 28,
+                "Greece": 29,
+                "India": 7,
+                "Indonesia": 40,
+                "Ireland": 27,
+                "Israel": 34,
+                "Italy": 28,
+                "Japan": 31,
+                "Korea,_Republic_of": 43,
+                "Malaysia": 46,
+                "Mexico": 37,
+                "Netherlands": 30,
+                "New_Zealand": 36,
+                "Norway": 29,
+                "Philippines": 44,
+                "Poland": 33,
+                "Portugal": 32,
+                "Russian_Federation": 31,
+                "Saudi_Arabia": 41,
+                "Singapore": 43,
+                "South_Africa": 31,
+                "Spain": 28,
+                "Sweden": 27,
+                "Switzerland": 30,
+                "Thailand": 48,
+                "Turkey": 37,
+                "United_Arab_Emirates": 38,
+                "United_Kingdom": 36,
+                "United_States": 11
+              },
+              "features": {
+                "danceability": 0.6086021926389986,
+                "energy": 0.6372809710258412,
+                "tempo": 97.7481143304622,
+                "valence": 0.5335368833202818,
+                "acousticness": 0.07820978230227107
+              },
+              "topCountries": [
+                {
+                  "country": "Thailand",
+                  "count": 48,
+                  "percentage": "3.76%"
+                },
+                {
+                  "country": "Malaysia",
+                  "count": 46,
+                  "percentage": "3.60%"
+                },
+                {
+                  "country": "Philippines",
+                  "count": 44,
+                  "percentage": "3.45%"
+                },
+                {
+                  "country": "Korea,_Republic_of",
+                  "count": 43,
+                  "percentage": "3.37%"
+                },
+                {
+                  "country": "Singapore",
+                  "count": 43,
+                  "percentage": "3.37%"
+                }
+              ]
+            },
+            "1": {
+              "size": 1823,
+              "percentage": "25.42%",
+              "countryDistribution": {
+                "Argentina": 41,
+                "Australia": 52,
+                "Belgium": 54,
+                "Brazil": 52,
+                "Canada": 52,
+                "China": 19,
+                "Denmark": 56,
+                "Egypt": 58,
+                "Finland": 52,
+                "France": 49,
+                "Germany": 43,
+                "Greece": 43,
+                "India": 14,
+                "Indonesia": 46,
+                "Ireland": 49,
+                "Israel": 45,
+                "Italy": 39,
+                "Japan": 56,
+                "Korea,_Republic_of": 49,
+                "Malaysia": 52,
+                "Mexico": 41,
+                "Netherlands": 53,
+                "New_Zealand": 46,
+                "Norway": 49,
+                "Philippines": 59,
+                "Poland": 54,
+                "Portugal": 45,
+                "Russian_Federation": 48,
+                "Saudi_Arabia": 61,
+                "Singapore": 51,
+                "South_Africa": 47,
+                "Spain": 41,
+                "Sweden": 43,
+                "Switzerland": 57,
+                "Thailand": 51,
+                "Turkey": 45,
+                "United_Arab_Emirates": 51,
+                "United_Kingdom": 48,
+                "United_States": 12
+              },
+              "features": {
+                "danceability": 0.5504114097641247,
+                "energy": 0.6594218321448132,
+                "tempo": 135.80990839275938,
+                "valence": 0.5173893033461329,
+                "acousticness": 0.14469787164015419
+              },
+              "topCountries": [
+                {
+                  "country": "Saudi_Arabia",
+                  "count": 61,
+                  "percentage": "3.35%"
+                },
+                {
+                  "country": "Philippines",
+                  "count": 59,
+                  "percentage": "3.24%"
+                },
+                {
+                  "country": "Egypt",
+                  "count": 58,
+                  "percentage": "3.18%"
+                },
+                {
+                  "country": "Switzerland",
+                  "count": 57,
+                  "percentage": "3.13%"
+                },
+                {
+                  "country": "Denmark",
+                  "count": 56,
+                  "percentage": "3.07%"
+                }
+              ]
+            },
+            "2": {
+              "size": 2481,
+              "percentage": "34.60%",
+              "countryDistribution": {
+                "Argentina": 77,
+                "Australia": 73,
+                "Belgium": 59,
+                "Brazil": 76,
+                "Canada": 63,
+                "China": 18,
+                "Denmark": 38,
+                "Egypt": 57,
+                "Finland": 100,
+                "France": 62,
+                "Germany": 84,
+                "Greece": 79,
+                "India": 14,
+                "Indonesia": 47,
+                "Ireland": 68,
+                "Israel": 67,
+                "Italy": 78,
+                "Japan": 64,
+                "Korea,_Republic_of": 62,
+                "Malaysia": 53,
+                "Mexico": 90,
+                "Netherlands": 54,
+                "New_Zealand": 77,
+                "Norway": 62,
+                "Philippines": 49,
+                "Poland": 73,
+                "Portugal": 82,
+                "Russian_Federation": 94,
+                "Saudi_Arabia": 50,
+                "Singapore": 49,
+                "South_Africa": 90,
+                "Spain": 89,
+                "Sweden": 62,
+                "Switzerland": 54,
+                "Thailand": 53,
+                "Turkey": 58,
+                "United_Arab_Emirates": 62,
+                "United_Kingdom": 71,
+                "United_States": 23
+              },
+              "features": {
+                "danceability": 0.5302035469568732,
+                "energy": 0.8083853284965762,
+                "tempo": 126.2931148730342,
+                "valence": 0.5294176541717069,
+                "acousticness": 0.005546613135832312
+              },
+              "topCountries": [
+                {
+                  "country": "Finland",
+                  "count": 100,
+                  "percentage": "4.03%"
+                },
+                {
+                  "country": "Russian_Federation",
+                  "count": 94,
+                  "percentage": "3.79%"
+                },
+                {
+                  "country": "Mexico",
+                  "count": 90,
+                  "percentage": "3.63%"
+                },
+                {
+                  "country": "South_Africa",
+                  "count": 90,
+                  "percentage": "3.63%"
+                },
+                {
+                  "country": "Spain",
+                  "count": 89,
+                  "percentage": "3.59%"
+                }
+              ]
+            },
+            "3": {
+              "size": 1590,
+              "percentage": "22.17%",
+              "countryDistribution": {
+                "Argentina": 28,
+                "Australia": 32,
+                "Belgium": 53,
+                "Brazil": 24,
+                "Canada": 43,
+                "China": 14,
+                "Denmark": 71,
+                "Egypt": 49,
+                "Finland": 12,
+                "France": 50,
+                "Germany": 35,
+                "Greece": 44,
+                "India": 14,
+                "Indonesia": 65,
+                "Ireland": 50,
+                "Israel": 49,
+                "Italy": 45,
+                "Japan": 44,
+                "Korea,_Republic_of": 46,
+                "Malaysia": 45,
+                "Mexico": 26,
+                "Netherlands": 53,
+                "New_Zealand": 38,
+                "Norway": 55,
+                "Philippines": 43,
+                "Poland": 35,
+                "Portugal": 35,
+                "Russian_Federation": 27,
+                "Saudi_Arabia": 47,
+                "Singapore": 53,
+                "South_Africa": 32,
+                "Spain": 36,
+                "Sweden": 61,
+                "Switzerland": 55,
+                "Thailand": 45,
+                "Turkey": 50,
+                "United_Arab_Emirates": 46,
+                "United_Kingdom": 36,
+                "United_States": 4
+              },
+              "features": {
+                "danceability": 0.5742314465408818,
+                "energy": 0.5023281132075472,
+                "tempo": 114.79094025157251,
+                "valence": 0.4661354716981149,
+                "acousticness": 0.607816981132076
+              },
+              "topCountries": [
+                {
+                  "country": "Denmark",
+                  "count": 71,
+                  "percentage": "4.47%"
+                },
+                {
+                  "country": "Indonesia",
+                  "count": 65,
+                  "percentage": "4.09%"
+                },
+                {
+                  "country": "Sweden",
+                  "count": 61,
+                  "percentage": "3.84%"
+                },
+                {
+                  "country": "Norway",
+                  "count": 55,
+                  "percentage": "3.46%"
+                },
+                {
+                  "country": "Switzerland",
+                  "count": 55,
+                  "percentage": "3.46%"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "k": 5,
+        "metrics": {
+          "silhouetteScore": -0.13359703571464632,
+          "dbiScore": 484.6539653656093,
+          "bicScore": 5912.741861370754,
+          "aicScore": 4846.682800318955,
+          "logLikelihood": -2268.3414001594774
+        },
+        "analysis": {
+          "overall": {
+            "totalSongs": 7171,
+            "uniqueCountries": 39,
+            "clusterCount": 7171
+          },
+          "clusters": {
+            "0": {
+              "size": 622,
+              "percentage": "8.67%",
+              "countryDistribution": {
+                "Argentina": 11,
+                "Australia": 14,
+                "Belgium": 15,
+                "Brazil": 18,
+                "Canada": 18,
+                "China": 8,
+                "Denmark": 14,
+                "Egypt": 30,
+                "Finland": 13,
+                "France": 16,
+                "Germany": 10,
+                "Greece": 15,
+                "India": 10,
+                "Indonesia": 21,
+                "Ireland": 14,
+                "Israel": 19,
+                "Italy": 14,
+                "Japan": 16,
+                "Korea,_Republic_of": 18,
+                "Malaysia": 18,
+                "Mexico": 16,
+                "Netherlands": 17,
+                "New_Zealand": 16,
+                "Norway": 17,
+                "Philippines": 20,
+                "Poland": 12,
+                "Portugal": 19,
+                "Russian_Federation": 19,
+                "Saudi_Arabia": 23,
+                "Singapore": 18,
+                "South_Africa": 17,
+                "Spain": 15,
+                "Sweden": 13,
+                "Switzerland": 16,
+                "Thailand": 16,
+                "Turkey": 16,
+                "United_Arab_Emirates": 22,
+                "United_Kingdom": 13,
+                "United_States": 5
+              },
+              "features": {
+                "danceability": 0.47421382636656007,
+                "energy": 0.5414742765273307,
+                "tempo": 151.27709967845644,
+                "valence": 0.3585072347266884,
+                "acousticness": 0.12172900321543403
+              },
+              "topCountries": [
+                {
+                  "country": "Egypt",
+                  "count": 30,
+                  "percentage": "4.82%"
+                },
+                {
+                  "country": "Saudi_Arabia",
+                  "count": 23,
+                  "percentage": "3.70%"
+                },
+                {
+                  "country": "United_Arab_Emirates",
+                  "count": 22,
+                  "percentage": "3.54%"
+                },
+                {
+                  "country": "Indonesia",
+                  "count": 21,
+                  "percentage": "3.38%"
+                },
+                {
+                  "country": "Philippines",
+                  "count": 20,
+                  "percentage": "3.22%"
+                }
+              ]
+            },
+            "1": {
+              "size": 1526,
+              "percentage": "21.28%",
+              "countryDistribution": {
+                "Argentina": 47,
+                "Australia": 46,
+                "Belgium": 33,
+                "Brazil": 47,
+                "Canada": 34,
+                "China": 10,
+                "Denmark": 21,
+                "Egypt": 33,
+                "Finland": 71,
+                "France": 38,
+                "Germany": 55,
+                "Greece": 56,
+                "India": 10,
+                "Indonesia": 28,
+                "Ireland": 42,
+                "Israel": 43,
+                "Italy": 55,
+                "Japan": 43,
+                "Korea,_Republic_of": 35,
+                "Malaysia": 31,
+                "Mexico": 61,
+                "Netherlands": 32,
+                "New_Zealand": 45,
+                "Norway": 35,
+                "Philippines": 21,
+                "Poland": 43,
+                "Portugal": 55,
+                "Russian_Federation": 61,
+                "Saudi_Arabia": 22,
+                "Singapore": 27,
+                "South_Africa": 56,
+                "Spain": 61,
+                "Sweden": 38,
+                "Switzerland": 32,
+                "Thailand": 30,
+                "Turkey": 36,
+                "United_Arab_Emirates": 36,
+                "United_Kingdom": 45,
+                "United_States": 12
+              },
+              "features": {
+                "danceability": 0.5020262123197891,
+                "energy": 0.8200956749672356,
+                "tempo": 128.33661664482247,
+                "valence": 0.4763876802096983,
+                "acousticness": 0.001496848748361732
+              },
+              "topCountries": [
+                {
+                  "country": "Finland",
+                  "count": 71,
+                  "percentage": "4.65%"
+                },
+                {
+                  "country": "Mexico",
+                  "count": 61,
+                  "percentage": "4.00%"
+                },
+                {
+                  "country": "Russian_Federation",
+                  "count": 61,
+                  "percentage": "4.00%"
+                },
+                {
+                  "country": "Spain",
+                  "count": 61,
+                  "percentage": "4.00%"
+                },
+                {
+                  "country": "Greece",
+                  "count": 56,
+                  "percentage": "3.67%"
+                }
+              ]
+            },
+            "2": {
+              "size": 1689,
+              "percentage": "23.55%",
+              "countryDistribution": {
+                "Argentina": 28,
+                "Australia": 39,
+                "Belgium": 57,
+                "Brazil": 26,
+                "Canada": 47,
+                "China": 15,
+                "Denmark": 74,
+                "Egypt": 50,
+                "Finland": 16,
+                "France": 51,
+                "Germany": 38,
+                "Greece": 47,
+                "India": 13,
+                "Indonesia": 66,
+                "Ireland": 55,
+                "Israel": 53,
+                "Italy": 47,
+                "Japan": 46,
+                "Korea,_Republic_of": 49,
+                "Malaysia": 48,
+                "Mexico": 27,
+                "Netherlands": 56,
+                "New_Zealand": 40,
+                "Norway": 60,
+                "Philippines": 45,
+                "Poland": 41,
+                "Portugal": 38,
+                "Russian_Federation": 27,
+                "Saudi_Arabia": 49,
+                "Singapore": 55,
+                "South_Africa": 35,
+                "Spain": 36,
+                "Sweden": 65,
+                "Switzerland": 59,
+                "Thailand": 46,
+                "Turkey": 53,
+                "United_Arab_Emirates": 47,
+                "United_Kingdom": 39,
+                "United_States": 6
+              },
+              "features": {
+                "danceability": 0.5770112492599184,
+                "energy": 0.5043858496151573,
+                "tempo": 119.50501480165798,
+                "valence": 0.48229396092362536,
+                "acousticness": 0.5807877442273532
+              },
+              "topCountries": [
+                {
+                  "country": "Denmark",
+                  "count": 74,
+                  "percentage": "4.38%"
+                },
+                {
+                  "country": "Indonesia",
+                  "count": 66,
+                  "percentage": "3.91%"
+                },
+                {
+                  "country": "Sweden",
+                  "count": 65,
+                  "percentage": "3.85%"
+                },
+                {
+                  "country": "Norway",
+                  "count": 60,
+                  "percentage": "3.55%"
+                },
+                {
+                  "country": "Switzerland",
+                  "count": 59,
+                  "percentage": "3.49%"
+                }
+              ]
+            },
+            "3": {
+              "size": 1849,
+              "percentage": "25.78%",
+              "countryDistribution": {
+                "Argentina": 57,
+                "Australia": 60,
+                "Belgium": 50,
+                "Brazil": 59,
+                "Canada": 60,
+                "China": 17,
+                "Denmark": 35,
+                "Egypt": 41,
+                "Finland": 58,
+                "France": 46,
+                "Germany": 53,
+                "Greece": 43,
+                "India": 8,
+                "Indonesia": 42,
+                "Ireland": 44,
+                "Israel": 39,
+                "Italy": 42,
+                "Japan": 48,
+                "Korea,_Republic_of": 61,
+                "Malaysia": 53,
+                "Mexico": 46,
+                "Netherlands": 44,
+                "New_Zealand": 59,
+                "Norway": 47,
+                "Philippines": 59,
+                "Poland": 59,
+                "Portugal": 50,
+                "Russian_Federation": 55,
+                "Saudi_Arabia": 52,
+                "Singapore": 51,
+                "South_Africa": 59,
+                "Spain": 50,
+                "Sweden": 44,
+                "Switzerland": 41,
+                "Thailand": 56,
+                "Turkey": 43,
+                "United_Arab_Emirates": 51,
+                "United_Kingdom": 50,
+                "United_States": 17
+              },
+              "features": {
+                "danceability": 0.5784640346133064,
+                "energy": 0.8115332612222792,
+                "tempo": 124.37375175770717,
+                "valence": 0.5917089237425649,
+                "acousticness": 0.03107692590589521
+              },
+              "topCountries": [
+                {
+                  "country": "Korea,_Republic_of",
+                  "count": 61,
+                  "percentage": "3.30%"
+                },
+                {
+                  "country": "Australia",
+                  "count": 60,
+                  "percentage": "3.24%"
+                },
+                {
+                  "country": "Canada",
+                  "count": 60,
+                  "percentage": "3.24%"
+                },
+                {
+                  "country": "Brazil",
+                  "count": 59,
+                  "percentage": "3.19%"
+                },
+                {
+                  "country": "New_Zealand",
+                  "count": 59,
+                  "percentage": "3.19%"
+                }
+              ]
+            },
+            "4": {
+              "size": 1485,
+              "percentage": "20.71%",
+              "countryDistribution": {
+                "Argentina": 43,
+                "Australia": 37,
+                "Belgium": 41,
+                "Brazil": 42,
+                "Canada": 37,
+                "China": 16,
+                "Denmark": 47,
+                "Egypt": 46,
+                "Finland": 30,
+                "France": 44,
+                "Germany": 34,
+                "Greece": 34,
+                "India": 8,
+                "Indonesia": 41,
+                "Ireland": 39,
+                "Israel": 41,
+                "Italy": 32,
+                "Japan": 42,
+                "Korea,_Republic_of": 37,
+                "Malaysia": 46,
+                "Mexico": 44,
+                "Netherlands": 41,
+                "New_Zealand": 37,
+                "Norway": 36,
+                "Philippines": 50,
+                "Poland": 40,
+                "Portugal": 32,
+                "Russian_Federation": 38,
+                "Saudi_Arabia": 53,
+                "Singapore": 45,
+                "South_Africa": 33,
+                "Spain": 32,
+                "Sweden": 33,
+                "Switzerland": 48,
+                "Thailand": 49,
+                "Turkey": 42,
+                "United_Arab_Emirates": 41,
+                "United_Kingdom": 44,
+                "United_States": 10
+              },
+              "features": {
+                "danceability": 0.6086484848484853,
+                "energy": 0.5922853872053868,
+                "tempo": 98.65962828282831,
+                "valence": 0.5525552188552192,
+                "acousticness": 0.1531561562289572
+              },
+              "topCountries": [
+                {
+                  "country": "Saudi_Arabia",
+                  "count": 53,
+                  "percentage": "3.57%"
+                },
+                {
+                  "country": "Philippines",
+                  "count": 50,
+                  "percentage": "3.37%"
+                },
+                {
+                  "country": "Thailand",
+                  "count": 49,
+                  "percentage": "3.30%"
+                },
+                {
+                  "country": "Switzerland",
+                  "count": 48,
+                  "percentage": "3.23%"
+                },
+                {
+                  "country": "Denmark",
+                  "count": 47,
+                  "percentage": "3.16%"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "soft": []
+  }
+}
