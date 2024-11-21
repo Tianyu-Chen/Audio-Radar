@@ -1,0 +1,363 @@
+bash-3.2$ node tests/run-tests.js
+Starting clustering analysis...
+Loading audio features from all countries...
+Looking for data in: /Users/tianyuchen/Desktop/hw/cs7641/project/AudioRadar/data/audio_features_by_country
+Found 39 country files
+Processed 186 songs from Argentina
+Processed 196 songs from Australia
+Processed 196 songs from Belgium
+Processed 192 songs from Brazil
+Processed 196 songs from Canada
+Processed 66 songs from China
+Processed 191 songs from Denmark
+Processed 200 songs from Egypt
+Processed 188 songs from Finland
+Processed 195 songs from France
+Processed 190 songs from Germany
+Processed 195 songs from Greece
+Processed 49 songs from India
+Processed 198 songs from Indonesia
+Processed 194 songs from Ireland
+Processed 195 songs from Israel
+Processed 190 songs from Italy
+Processed 195 songs from Japan
+Processed 200 songs from Korea,_Republic_of
+Processed 196 songs from Malaysia
+Processed 194 songs from Mexico
+Processed 190 songs from Netherlands
+Processed 197 songs from New_Zealand
+Processed 195 songs from Norway
+Processed 195 songs from Philippines
+Processed 195 songs from Poland
+Processed 194 songs from Portugal
+Processed 200 songs from Russian_Federation
+Processed 199 songs from Saudi_Arabia
+Processed 196 songs from Singapore
+Processed 200 songs from South_Africa
+Processed 194 songs from Spain
+Processed 193 songs from Sweden
+Processed 196 songs from Switzerland
+Processed 197 songs from Thailand
+Processed 190 songs from Turkey
+Processed 197 songs from United_Arab_Emirates
+Processed 191 songs from United_Kingdom
+Processed 50 songs from United_States
+Loaded 7171 songs from all countries
+
+Testing with 3 clusters...
+
+Evaluating clustering with K=3...
+Fitting GMM with K=3, maxIterations=100...
+Preprocessing data...
+Data preprocessing completed
+Initializing means using k-means++...
+Initializing covariance matrices...
+Iteration 10, log likelihood: -6062.681268868789
+Iteration 20, log likelihood: -5314.853874723415
+Iteration 30, log likelihood: -5210.134351105436
+Iteration 40, log likelihood: -5189.5996948204665
+Iteration 50, log likelihood: -5175.130544418992
+Iteration 60, log likelihood: -5146.730809402959
+Iteration 70, log likelihood: -5126.160186602625
+Iteration 80, log likelihood: -5125.335455636899
+Iteration 90, log likelihood: -5125.259464276583
+Iteration 100, log likelihood: -5125.241409982386
+
+Evaluating clustering with K=3...
+Fitting GMM with K=3, maxIterations=100...
+Preprocessing data...
+Data preprocessing completed
+Initializing means using k-means++...
+Initializing covariance matrices...
+Iteration 10, log likelihood: -5145.504116106217
+Iteration 20, log likelihood: -4821.356663926366
+Iteration 30, log likelihood: -4526.895653290155
+Iteration 40, log likelihood: -4248.722891801169
+Iteration 50, log likelihood: -4221.035341720547
+Iteration 60, log likelihood: -4193.0873974088145
+Iteration 70, log likelihood: -4128.547231682215
+Iteration 80, log likelihood: -4093.168438391078
+Iteration 90, log likelihood: -4087.864239320171
+Iteration 100, log likelihood: -4084.372743408
+
+GMM K=3 Results:
+- Silhouette Score: -0.055
+- Davies-Bouldin Index: 216.095
+- BIC Score: 11076.118
+- AIC Score: 10436.483
+
+Cluster 0 (3097 songs, 43.19%):
+Top countries:
+  Finland: 116 songs (3.75%)
+  Russian_Federation: 111 songs (3.58%)
+  South_Africa: 107 songs (3.45%)
+  Mexico: 106 songs (3.42%)
+  Spain: 105 songs (3.39%)
+Average features:
+  danceability: 0.532
+  energy: 0.800
+  tempo: 128.102
+  valence: 0.527
+  acousticness: 0.011
+
+Cluster 1 (1937 songs, 27.01%):
+Top countries:
+  Indonesia: 77 songs (3.98%)
+  Egypt: 76 songs (3.92%)
+  Denmark: 72 songs (3.72%)
+  Saudi_Arabia: 68 songs (3.51%)
+  Israel: 66 songs (3.41%)
+Average features:
+  danceability: 0.503
+  energy: 0.430
+  tempo: 119.240
+  valence: 0.361
+  acousticness: 0.379
+
+Cluster 2 (2137 songs, 29.80%):
+Top countries:
+  Denmark: 72 songs (3.37%)
+  Japan: 72 songs (3.37%)
+  Malaysia: 71 songs (3.32%)
+  Philippines: 69 songs (3.23%)
+  Poland: 69 songs (3.23%)
+Average features:
+  danceability: 0.649
+  energy: 0.707
+  tempo: 112.568
+  valence: 0.631
+  acousticness: 0.270
+
+Soft Clustering Metrics:
+- Entropy: 0.294
+- Average Membership Strength: 0.927
+- Cluster Overlap Rate: 0.101
+
+Testing with 4 clusters...
+
+Evaluating clustering with K=4...
+Fitting GMM with K=4, maxIterations=100...
+Preprocessing data...
+Data preprocessing completed
+Initializing means using k-means++...
+Initializing covariance matrices...
+Iteration 10, log likelihood: -4282.68863685467
+Iteration 20, log likelihood: -3715.0715161391745
+Iteration 30, log likelihood: -3551.8282210477278
+Iteration 40, log likelihood: -3517.5923891378466
+Iteration 50, log likelihood: -3513.722680617225
+Iteration 60, log likelihood: -3511.868129656261
+Iteration 70, log likelihood: -3509.263902417542
+Iteration 80, log likelihood: -3481.5309660818134
+Iteration 90, log likelihood: -2982.680468531955
+Iteration 100, log likelihood: -2792.5465847375453
+
+Evaluating clustering with K=4...
+Fitting GMM with K=4, maxIterations=100...
+Preprocessing data...
+Data preprocessing completed
+Initializing means using k-means++...
+Initializing covariance matrices...
+Iteration 10, log likelihood: -4470.912367392759
+Iteration 20, log likelihood: -4087.3747398597243
+Iteration 30, log likelihood: -3934.2360850999667
+Iteration 40, log likelihood: -3891.59801958977
+Iteration 50, log likelihood: -3890.644329043762
+Iteration 60, log likelihood: -3890.5686467219766
+Iteration 70, log likelihood: -3890.5582486756707
+Iteration 80, log likelihood: -3890.5564856537694
+Iteration 90, log likelihood: -3890.5561663569447
+Iteration 100, log likelihood: -3890.556107237664
+
+GMM K=4 Results:
+- Silhouette Score: -0.111
+- Davies-Bouldin Index: 514.189
+- BIC Score: 6685.940
+- AIC Score: 5833.093
+
+Cluster 0 (2053 songs, 28.63%):
+Top countries:
+  Brazil: 69 songs (3.36%)
+  Korea,_Republic_of: 67 songs (3.26%)
+  Poland: 65 songs (3.17%)
+  Thailand: 65 songs (3.17%)
+  Australia: 64 songs (3.12%)
+Average features:
+  danceability: 0.576
+  energy: 0.774
+  tempo: 127.359
+  valence: 0.576
+  acousticness: 0.039
+
+Cluster 1 (2021 songs, 28.18%):
+Top countries:
+  Denmark: 82 songs (4.06%)
+  Indonesia: 78 songs (3.86%)
+  Egypt: 72 songs (3.56%)
+  Sweden: 71 songs (3.51%)
+  Norway: 70 songs (3.46%)
+Average features:
+  danceability: 0.553
+  energy: 0.496
+  tempo: 123.111
+  valence: 0.448
+  acousticness: 0.519
+
+Cluster 2 (1746 songs, 24.35%):
+Top countries:
+  Finland: 76 songs (4.35%)
+  Russian_Federation: 72 songs (4.12%)
+  Mexico: 67 songs (3.84%)
+  Spain: 67 songs (3.84%)
+  South_Africa: 64 songs (3.67%)
+Average features:
+  danceability: 0.506
+  energy: 0.815
+  tempo: 128.360
+  valence: 0.481
+  acousticness: 0.002
+
+Cluster 3 (1351 songs, 18.84%):
+Top countries:
+  Saudi_Arabia: 49 songs (3.63%)
+  Denmark: 46 songs (3.40%)
+  Thailand: 45 songs (3.33%)
+  Philippines: 44 songs (3.26%)
+  Switzerland: 44 songs (3.26%)
+Average features:
+  danceability: 0.610
+  energy: 0.596
+  tempo: 99.085
+  valence: 0.556
+  acousticness: 0.157
+
+Soft Clustering Metrics:
+- Entropy: 0.368
+- Average Membership Strength: 0.906
+- Cluster Overlap Rate: 0.148
+
+Testing with 5 clusters...
+
+Evaluating clustering with K=5...
+Fitting GMM with K=5, maxIterations=100...
+Preprocessing data...
+Data preprocessing completed
+Initializing means using k-means++...
+Initializing covariance matrices...
+Iteration 10, log likelihood: -5734.297052614392
+Iteration 20, log likelihood: -3896.8801961624413
+Iteration 30, log likelihood: -3634.374376739674
+Iteration 40, log likelihood: -3402.5287399188105
+Iteration 50, log likelihood: -3220.6286480141757
+Iteration 60, log likelihood: -3069.6049109649125
+Iteration 70, log likelihood: -2931.2973026857876
+Iteration 80, log likelihood: -2514.604278506928
+Iteration 90, log likelihood: -2419.280821276193
+Iteration 100, log likelihood: -2301.938134264541
+
+Evaluating clustering with K=5...
+Fitting GMM with K=5, maxIterations=100...
+Preprocessing data...
+Data preprocessing completed
+Initializing means using k-means++...
+Initializing covariance matrices...
+Iteration 10, log likelihood: -4093.35560341879
+Iteration 20, log likelihood: -3487.4724363733267
+Iteration 30, log likelihood: -3026.1842648793286
+Iteration 40, log likelihood: -2732.953126759625
+Iteration 50, log likelihood: -2355.1868102300796
+Iteration 60, log likelihood: -2192.5382524399834
+Iteration 70, log likelihood: -2159.3347747192183
+Iteration 80, log likelihood: -2121.7389405195568
+Iteration 90, log likelihood: -2117.7746247612636
+Iteration 100, log likelihood: -2116.576137937384
+
+GMM K=5 Results:
+- Silhouette Score: -0.149
+- Davies-Bouldin Index: 452.656
+- BIC Score: 5979.935
+- AIC Score: 4913.876
+
+Cluster 0 (1525 songs, 21.27%):
+Top countries:
+  Finland: 71 songs (4.66%)
+  Mexico: 61 songs (4.00%)
+  Russian_Federation: 61 songs (4.00%)
+  Spain: 61 songs (4.00%)
+  Greece: 56 songs (3.67%)
+Average features:
+  danceability: 0.502
+  energy: 0.820
+  tempo: 128.332
+  valence: 0.477
+  acousticness: 0.001
+
+Cluster 1 (1690 songs, 23.57%):
+Top countries:
+  Indonesia: 75 songs (4.44%)
+  Denmark: 66 songs (3.91%)
+  Egypt: 61 songs (3.61%)
+  Singapore: 59 songs (3.49%)
+  Norway: 58 songs (3.43%)
+Average features:
+  danceability: 0.548
+  energy: 0.463
+  tempo: 123.171
+  valence: 0.428
+  acousticness: 0.551
+
+Cluster 2 (1166 songs, 16.26%):
+Top countries:
+  Saudi_Arabia: 46 songs (3.95%)
+  Denmark: 45 songs (3.86%)
+  Egypt: 41 songs (3.52%)
+  Malaysia: 40 songs (3.43%)
+  Thailand: 40 songs (3.43%)
+Average features:
+  danceability: 0.574
+  energy: 0.557
+  tempo: 92.628
+  valence: 0.465
+  acousticness: 0.208
+
+Cluster 3 (490 songs, 6.83%):
+Top countries:
+  Australia: 20 songs (4.08%)
+  United_Kingdom: 20 songs (4.08%)
+  Japan: 19 songs (3.88%)
+  Belgium: 18 songs (3.67%)
+  Canada: 18 songs (3.67%)
+Average features:
+  danceability: 0.685
+  energy: 0.725
+  tempo: 129.212
+  valence: 0.775
+  acousticness: 0.172
+
+Cluster 4 (2300 songs, 32.07%):
+Top countries:
+  Brazil: 77 songs (3.35%)
+  Korea,_Republic_of: 75 songs (3.26%)
+  Philippines: 74 songs (3.22%)
+  Canada: 72 songs (3.13%)
+  South_Africa: 72 songs (3.13%)
+Average features:
+  danceability: 0.571
+  energy: 0.775
+  tempo: 127.423
+  valence: 0.568
+  acousticness: 0.036
+
+Soft Clustering Metrics:
+- Entropy: 0.462
+- Average Membership Strength: 0.881
+- Cluster Overlap Rate: 0.194
+
+Best K values:
+GMM Metrics:
+Silhouette Score: K = 3
+Davies-Bouldin Index: K = 3
+AIC: K = 5
+BIC: K = 5
+
+Analysis complete! Check clustering_results.json for detailed results.
